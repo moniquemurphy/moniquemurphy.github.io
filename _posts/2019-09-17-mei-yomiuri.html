@@ -1,0 +1,72 @@
+---
+layout: default
+title: Japanese Readers Series Shorties 1 - Mei Reporting for Kodomo Shimbun 
+---
+<h1>Japanese Readers Series Shorties #1: Mei Reporting for Kodomo Shimbun</h1>
+
+<h2>Intro</h2>
+<p>For background/how to use this series, see the <a href="2019-09-16-yuurei-no-sodekake.html">first post</a>.</p>
+<p>I'm probably going to be pretty lackadaisical as to what I post here. Eventually I plan to tag based on grammar used and maybe do an average frequency tag so readers can find things that suit their level. But I'm just playing with stuff right now, so translating a tweet from a kids' version of the Yomiuri Shimbun seems kind of fun.</p>
+
+<h2>Text Link</h2>
+<p>{% twitter https://twitter.com/kodomo_yomi/status/1013603833937780736?s=20 %}</p>
+
+<h2>Vocab List</h2>
+<table>
+    <caption class="hidden">
+    Vocab List
+    </caption>
+    <thead>
+      <tr>
+        <th scope="col">
+          Kanji
+        </th>
+        <th scope="col">
+          Reading
+        </th>
+        <th scope="col">
+          English Gloss
+        </th>
+        <th scope="col">
+          Frequency
+        </th>
+        </thead>
+        <tbody>
+        {% for item in site.data.jreaders.jreader2 %}
+        {% if item.frequency > 50 %}
+        <tr class="high-frequency">
+        {% elsif 10 <= item.frequency <= 50 %}
+        <tr class="mid-frequency">
+        {% elsif 0 < item.frequency < 10 %}
+        <tr class="low-frequency">
+        {% else %}
+        <tr class="very-low-frequency">
+        {% endif %}
+          <td>
+            {{ item.kanji }}
+          </td>
+          <td>
+            {{ item.reading }}
+          </td>
+          <td>
+            {{ item.english }}
+          </td>
+          <td>
+            {{ item.frequency }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+  </table>
+
+ <h2>Grammar List</h2>
+ <ul>
+ 	<li><a href="http://www.guidetojapanese.org/learn/grammar/teform">ている form</a></li>
+	<li><a href="http://www.guidetojapanese.org/learn/grammar/define">という</a></li>
+	<li>では - locative, similar to <a href="http://www.guidetojapanese.org/particles2.html">には</a></li>
+	<li><a href="http://www.guidetojapanese.org/learn/grammar/compound#Expressing_contradiction_using_and">けど</a></li>
+	<li><a href="http://www.guidetojapanese.org/learn/complete/progressive_tense">てform</a></li>
+</ul>
+
+<h2>Translation</h2>
+<p>Howdy! I'm Mei and I live in Texas. "Howdy" is how cowboys say "Hello." I'd be a second grader in Japan, but in America, the school year is over and it's summer vacation. Summer vacation in America is long!</p>
