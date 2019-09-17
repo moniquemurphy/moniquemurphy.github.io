@@ -1,0 +1,511 @@
+---
+-
+    kanji: 言う
+    reading: いう
+    english: to say
+    frequency: 1263.36
+    reason:
+-
+    kanji: 今日
+    reading: きょう
+    english: today
+    frequency: 412.67
+    reason:
+-
+    kanji: 聞く
+    reading: きく
+    english: to listen
+    frequency: 392.28
+    reason:
+-
+    kanji: 来る
+    reading: くる
+    english: to come
+    frequency: 369.72
+    reason:
+-
+    kanji: 作る
+    reading: つくる
+    english: to make
+    frequency: 296.6
+    reason:
+-
+    kanji: 次の〜
+    reading: つぎの〜
+    english: the next ~
+    frequency: N/A
+    reason: compound word but 次 is 271.58
+-
+    kanji: 買う
+    reading: かう
+    english: to buy
+    frequency: 254.9
+    reason:
+-
+    kanji: かける
+    reading:
+    english: to hang something on something else
+    frequency: 168.92
+    reason:
+-
+    kanji: 声
+    reading: こえ
+    english: voice
+    frequency: 155.19
+    reason:
+-
+    kanji: 呼ぶ
+    reading: よぶ
+    english: to call out/to call
+    frequency: 149.08
+    reason:
+-
+    kanji: 元
+    reading: もと
+    english: root/origin (can also metaphorically mean place something or someone is)
+    frequency: 138.74
+    reason:
+-
+    kanji: 帰る
+    reading: かえる
+    english: to go home
+    frequency: 135.16
+    reason:
+-
+    kanji: 実は
+    reading: じつは
+    english: actually
+    frequency: 129.91
+    reason:
+-
+    kanji: 話す
+    reading: はなす
+    english: to speak/to say
+    frequency: 123.18
+    reason:
+-
+    kanji: 近くの
+    reading: ちかくの
+    english: nearby
+    frequency: N/A
+    reason: compound but 近く is 92.02
+-
+    kanji: 死ぬ
+    reading: しぬ
+    english: to die
+    frequency: 88.79
+    reason:
+-
+    kanji: 若い
+    reading: わかい
+    english: young
+    frequency: 83.95
+    reason:
+-
+    kanji: 娘
+    reading: むすめ
+    english: daughter/girl
+    frequency: 74.48
+    reason:
+-
+    kanji: ところが
+    reading:
+    english: however
+    frequency: 71.89
+    reason:
+-
+    kanji: 先日
+    reading: せんじつ
+    english: the other day/recently
+    frequency: 62.28
+    reason:
+-
+    kanji: 古い
+    reading: ふるい
+    english: old
+    frequency: 55.28
+    reason:
+-
+    kanji: あの世
+    reading: あのよ
+    english: Heaven (literally "that world")
+    frequency: N/A
+    reason: compound but 世 is 53.53
+-
+    kanji: 現れる
+    reading: あらわれる
+    english: to appear
+    frequency: 43.87
+    reason:
+-
+    kanji: 喜ぶ
+    reading: よろこぶ
+    english: to be happy
+    frequency: 43.19
+    reason:
+-
+    kanji: 船
+    reading: ふね
+    english: ship/boat
+    frequency: 42.32
+    reason:
+-
+    kanji: 捨てる
+    reading: すてる
+    english: to drop/to throw away
+    frequency: 41.73
+    reason:
+-
+    kanji: 一言
+    reading: ひとこと
+    english: a single word
+    frequency: 40.03
+    reason:
+-
+    kanji: 涙
+    reading: なみだ
+    english: tears
+    frequency: 39.8
+    reason:
+-
+    kanji: 消える
+    reading: きえる
+    english: to disappear
+    frequency: 39.47
+    reason:
+-
+    kanji: 約束の
+    reading: やくそくの
+    english: promised
+    frequency: N/A
+    reason: compound but 約束 is 37.01
+-
+    kanji: 運ぶ
+    reading: はこぶ
+    english: to carry
+    frequency: 31.82
+    reason:
+-
+    kanji: 代わりに
+    reading: かわりに
+    english: in exchange
+    frequency: N/A
+    reason: compound but 代わり is 30.03
+-
+    kanji: 匹
+    reading: ひき
+    english: counter for certain animals
+    frequency: 29.19
+    reason:
+-
+    kanji: 辛い
+    reading: つらい
+    english: painful
+    frequency: 28.85
+    reason:
+-
+    kanji: せっかくの
+    reading:
+    english: something you went to all the trouble for
+    frequency: N/A
+    reason: compound word but せっかく is 27.96
+-
+    kanji: 迷う
+    reading: まよう
+    english: to wander in a lost kind of way
+    frequency: 25.3
+    reason:
+-
+    kanji: 壊れる
+    reading: こわれる
+    english: to break/to break down
+    frequency: 18.93
+    reason:
+-
+    kanji: 諦める
+    reading: あきらめる
+    english: to give up
+    frequency: 16
+    reason:
+-
+    kanji: 貧しい
+    reading: まずしい
+    english: poor
+    frequency: 14.39
+    reason:
+-
+    kanji: 晩
+    reading: ばん
+    english: night/evening
+    frequency: 13.92
+    reason:
+-
+    kanji: 今夜
+    reading: こんや
+    english: tonight
+    frequency: 13.5
+    reason:
+-
+    kanji: 松
+    reading: まつ
+    english: pine (tree)
+    frequency: 12.29
+    reason:
+-
+    kanji: 引き上げる
+    reading: ひきあげる
+    english: to raise up (transitive)
+    frequency: 10.89
+    reason:
+-
+    kanji: 揃える
+    reading: そろえる
+    english: to align/to coordinate
+    frequency: 10.83
+    reason:
+-
+    kanji: 枝
+    reading: えだ
+    english: branch
+    frequency: 10.54
+    reason:
+-
+    kanji: わし
+    reading:
+    english: I/me for an old person
+    frequency: 8.15
+    reason:
+-
+    kanji: 引っかかる
+    reading: ひっかかる
+    english: to be caught on something
+    frequency: 6.48
+    reason:
+-
+    kanji: お寺
+    reading: おてら
+    english: Buddhist temple
+    frequency: 5.53
+    reason:
+-
+    kanji: 幽霊
+    reading: ゆうれい
+    english: ghost
+    frequency: 5.15
+    reason:
+-
+    kanji: 大物
+    reading: おおもの
+    english: a big thing
+    frequency: 5.11
+    reason:
+-
+    kanji: めったにない
+    reading:
+    english: rare
+    frequency: N/A
+    reason: compound but めったに is 4.78
+-
+    kanji: 拭く
+    reading: ふく
+    english: to wipe
+    frequency: 4.8
+    reason:
+-
+    kanji: 袖
+    reading: そで
+    english: sleeve
+    frequency: 3.79
+    reason:
+-
+    kanji: かすかな
+    reading:
+    english: faint/dim/weak
+    frequency: 3.38
+    reason:
+-
+    kanji: 可哀想
+    reading: かわいそう
+    english: pitiable/something or someone to feel sorry for
+    frequency: 3.31
+    reason:
+-
+    kanji: 恨み
+    reading: うらみ
+    english: grudge
+    frequency: 3.05
+    reason:
+-
+    kanji: 漁師
+    reading: りょうし
+    english: fisherman
+    frequency: 3.03
+    reason:
+-
+    kanji: 葬る
+    reading: ほうむる
+    english: to bury
+    frequency: 2.67
+    reason:
+-
+    kanji: フッと
+    reading:
+    english: with a "whff"
+    frequency: N/A
+    reason: compound but フッ is 2.28
+-
+    kanji: 溺れる
+    reading: おぼれる
+    english: to drown
+    frequency: 2.25
+    reason:
+-
+    kanji: 夜釣り
+    reading: よづり
+    english: night fishing
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: どうしたことか
+    reading:
+    english: for some reason
+    frequency: N/A
+    reason: compound
+-
+    kanji: 一匹
+    reading: いっぴき
+    english: one fish/dog/cat
+    frequency: N/A
+    reason: compound
+-
+    kanji: 釣りざお
+    reading: つりざお
+    english: fishing rod
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 弓なり
+    reading: ゆみなり
+    english: arch
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 手応え
+    reading: てごたえ
+    english: response
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 釣り糸
+    reading: つりいと
+    english: fishing line
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 〜の先に
+    reading: 〜のさきに
+    english: at the end of (an object)
+    frequency: N/A
+    reason: compound word
+-
+    kanji: 亡骸
+    reading: なきがら
+    english: corpse
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 和尚
+    reading: おしょう
+    english: Buddhist priest
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 弔う
+    reading: とむらう
+    english: to hold a funeral service for
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 手厚い
+    reading: てあつい
+    english: courteous/warm
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 迷わず
+    reading: まよわず
+    english: without wavering/without wandering
+    frequency: N/A
+    reason: inflected word
+-
+    kanji: 心残り
+    reading: こころのこり
+    english: regret
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 何なり
+    reading: なんなり
+    english: whatever/anything
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 好きな人
+    reading: すきなひと
+    english: a person one loves
+    frequency: N/A
+    reason: compound
+-
+    kanji: 嫁入り
+    reading: よめいり
+    english: wedding/marriage
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 縁談
+    reading: えんだん
+    english: proposal of marriage
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: さぞ
+    reading:
+    english: certainly
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: よしよし
+    reading:
+    english: “there, there,” words of soothing encouragement/solace
+    frequency: N/A
+    reason: too casual for a corpus
+-
+    kanji: 今となっては
+    reading: いまとなっては
+    english: 'now that it''s right now'
+    frequency: N/A
+    reason: compound
+-
+    kanji: 手遅れ
+    reading: ておくれ
+    english: late/too late
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 消え去る
+    reading: きえさる
+    english: to leave by way of disappearing
+    frequency: N/A
+    reason: compound
+-
+    kanji: あくる
+    reading:
+    english: the next
+    frequency: N/A
+    reason: too infrequent
+-
+    kanji: 嫁に行く
+    reading: よめにいく
+    english: 'to marry (brides traditionally went to live with their husband''s family, so they “go bride”)'
+    frequency: N/A
+    reason: compound

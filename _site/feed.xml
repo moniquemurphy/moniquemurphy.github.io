@@ -1,4 +1,1592 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-13T15:44:27-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">momomori-eki</title><subtitle>language, linguistics, programming, blather</subtitle><entry><title type="html">What I’ve Been Working On</title><link href="http://localhost:4000/accounting/2019/09/13/what-ive-been-working-on.html" rel="alternate" type="text/html" title="What I've Been Working On" /><published>2019-09-13T08:00:28-05:00</published><updated>2019-09-13T08:00:28-05:00</updated><id>http://localhost:4000/accounting/2019/09/13/what-ive-been-working-on</id><content type="html" xml:base="http://localhost:4000/accounting/2019/09/13/what-ive-been-working-on.html">&lt;p&gt;For the past several months, I've just kept a notes file open with the title &quot;Ideas&quot; that I periodically dump stuff into. I'm a lot better at generating ideas than following through on them. I often quickly become bored or, more commonly, convince myself that my idea wasn't that great to begin with, so it should be abandoned before anyone else wastes their time. But I want to follow through on this: I'm keeping a blog, I'm going to talk about language learning somewhere other than in my various-levels-of-willing friends' gchat windows, and I'm going to write some tutorials for annoying but useful tech junk I've done. Join me on this wild ride if you dare.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-17T08:22:02-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">momomori-eki</title><subtitle>language, linguistics, programming, blather</subtitle><entry><title type="html">Japanese Readers Series 1 - Yuurei no Sodekake</title><link href="http://localhost:4000/2019/09/16/yuurei-no-sodekake.html" rel="alternate" type="text/html" title="Japanese Readers Series 1 - Yuurei no Sodekake" /><published>2019-09-16T00:00:00-05:00</published><updated>2019-09-16T00:00:00-05:00</updated><id>http://localhost:4000/2019/09/16/yuurei-no-sodekake</id><content type="html" xml:base="http://localhost:4000/2019/09/16/yuurei-no-sodekake.html">&lt;h1&gt;Japanese Readers Series #1: Yuurei no Sodekake&lt;/h1&gt;
+&lt;h2&gt;Background/Intro&lt;/h2&gt;
+  &lt;p&gt;
+    Personally, I get a lot of mileage out of learning vocab out of context first and then &quot;stumbling&quot; upon it while reading (I had a whole class that used this method once and it was great). If you are like this, or you'd like to try it, I suggest learning whatever vocab you want to learn out of context before you try to read through the text, and reading may cement its meaning better for you.
+  &lt;/p&gt;
+  &lt;p&gt;
+    The vocabulary is ordered in decreasing frequency (most frequent words at the top). I used the &lt;a href=&quot;http://www.manythings.org/japanese/words/leeds/&quot;&gt;Leeds corpus&lt;/a&gt; for the ratings (although I'm currently researching better options for this that contain more words!). If a phrase was a compound or inflected word, its frequency is listed as &quot;N/A&quot; with a reason. If the phrase is a compound but one of the seed words is in the frequency corpus, I included it in the proper place in the list. If the word is not on the top 15,000 most frequent words, it is listed as &quot;too infrequent.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+    I listed links for the grammar skills needed to completely understand this text. As with the vocab, learning these ahead of time might prime you nicely for cementing the knowledge when you read the text. Or you can just use them as a reference and let the text wash over you, if that's more your style. It's not quite as easy to judge frequency with grammar (you can cross reference JLPT lists if you'd like, but not everything is on the JLPT!), so just learn what seems interesting or useful to you.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Depending on your proficiency level, I suggest you ignore words or grammar points that are much more advanced or infrequent than you generally encounter right now. You can always come back to these materials at a later time and delve deeper. Remember that language learning is about getting comfortable with ambiguity, uncertainty, and NOT knowing everything right now. Get SOMETHING out of it and you have succeeded.
+  &lt;/p&gt;
+  &lt;p&gt;
+    I've included a rough translation of the text. I did it kind of quickly and made it more literal than smooth/idiomatic on purpose, as I find this helps me learn better. It's a reference tool, not a bible :)
+  &lt;/p&gt;
+  &lt;p&gt;
+    Try reading aloud or listening to the audio (if it works!). I find the full kanji version easier to read, but you might prefer the all-hiragana version.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Take notes, make flashcards, read about grammar, and feel free to ask questions!
+  &lt;/p&gt;
+  &lt;h2&gt;Text Links&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;a href=&quot;http://hukumusume.com/douwa/0_6/jap_pc/01/04.htm&quot;&gt;幽霊の袖かけまつ (hiragana only)&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;a href=&quot;http://hukumusume.com/douwa/pc/jap/01/04.htm&quot;&gt;幽霊の袖かけまつ (with kanji)&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;h2&gt;Vocab List&lt;/h2&gt;
+  &lt;table&gt;
+    &lt;caption&gt;
+    Vocab List
+    &lt;/caption&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;col&quot;&gt;
+          Kanji
+        &lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;
+          Reading
+        &lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;
+          English Gloss
+        &lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;
+          Frequency
+        &lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;
+          Reason for N/A Frequency
+        &lt;/th&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            言う
+          &lt;/td&gt;
+          &lt;td&gt;
+            いう
+          &lt;/td&gt;
+          &lt;td&gt;
+            to say
+          &lt;/td&gt;
+          &lt;td&gt;
+            1263.36
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            今日
+          &lt;/td&gt;
+          &lt;td&gt;
+            きょう
+          &lt;/td&gt;
+          &lt;td&gt;
+            today
+          &lt;/td&gt;
+          &lt;td&gt;
+            412.67
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            聞く
+          &lt;/td&gt;
+          &lt;td&gt;
+            きく
+          &lt;/td&gt;
+          &lt;td&gt;
+            to listen
+          &lt;/td&gt;
+          &lt;td&gt;
+            392.28
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            来る
+          &lt;/td&gt;
+          &lt;td&gt;
+            くる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to come
+          &lt;/td&gt;
+          &lt;td&gt;
+            369.72
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            作る
+          &lt;/td&gt;
+          &lt;td&gt;
+            つくる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to make
+          &lt;/td&gt;
+          &lt;td&gt;
+            296.6
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            次の〜
+          &lt;/td&gt;
+          &lt;td&gt;
+            つぎの〜
+          &lt;/td&gt;
+          &lt;td&gt;
+            the next ~
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound word but 次 is 271.58
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            買う
+          &lt;/td&gt;
+          &lt;td&gt;
+            かう
+          &lt;/td&gt;
+          &lt;td&gt;
+            to buy
+          &lt;/td&gt;
+          &lt;td&gt;
+            254.9
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            かける
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            to hang something on something else
+          &lt;/td&gt;
+          &lt;td&gt;
+            168.92
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            声
+          &lt;/td&gt;
+          &lt;td&gt;
+            こえ
+          &lt;/td&gt;
+          &lt;td&gt;
+            voice
+          &lt;/td&gt;
+          &lt;td&gt;
+            155.19
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            呼ぶ
+          &lt;/td&gt;
+          &lt;td&gt;
+            よぶ
+          &lt;/td&gt;
+          &lt;td&gt;
+            to call out/to call
+          &lt;/td&gt;
+          &lt;td&gt;
+            149.08
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            元
+          &lt;/td&gt;
+          &lt;td&gt;
+            もと
+          &lt;/td&gt;
+          &lt;td&gt;
+            root/origin (can also metaphorically mean place something or someone is)
+          &lt;/td&gt;
+          &lt;td&gt;
+            138.74
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            帰る
+          &lt;/td&gt;
+          &lt;td&gt;
+            かえる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to go home
+          &lt;/td&gt;
+          &lt;td&gt;
+            135.16
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            実は
+          &lt;/td&gt;
+          &lt;td&gt;
+            じつは
+          &lt;/td&gt;
+          &lt;td&gt;
+            actually
+          &lt;/td&gt;
+          &lt;td&gt;
+            129.91
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            話す
+          &lt;/td&gt;
+          &lt;td&gt;
+            はなす
+          &lt;/td&gt;
+          &lt;td&gt;
+            to speak/to say
+          &lt;/td&gt;
+          &lt;td&gt;
+            123.18
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            近くの
+          &lt;/td&gt;
+          &lt;td&gt;
+            ちかくの
+          &lt;/td&gt;
+          &lt;td&gt;
+            nearby
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound but 近く is 92.02
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            死ぬ
+          &lt;/td&gt;
+          &lt;td&gt;
+            しぬ
+          &lt;/td&gt;
+          &lt;td&gt;
+            to die
+          &lt;/td&gt;
+          &lt;td&gt;
+            88.79
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            若い
+          &lt;/td&gt;
+          &lt;td&gt;
+            わかい
+          &lt;/td&gt;
+          &lt;td&gt;
+            young
+          &lt;/td&gt;
+          &lt;td&gt;
+            83.95
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            娘
+          &lt;/td&gt;
+          &lt;td&gt;
+            むすめ
+          &lt;/td&gt;
+          &lt;td&gt;
+            daughter/girl
+          &lt;/td&gt;
+          &lt;td&gt;
+            74.48
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            ところが
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            however
+          &lt;/td&gt;
+          &lt;td&gt;
+            71.89
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            先日
+          &lt;/td&gt;
+          &lt;td&gt;
+            せんじつ
+          &lt;/td&gt;
+          &lt;td&gt;
+            the other day/recently
+          &lt;/td&gt;
+          &lt;td&gt;
+            62.28
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            古い
+          &lt;/td&gt;
+          &lt;td&gt;
+            ふるい
+          &lt;/td&gt;
+          &lt;td&gt;
+            old
+          &lt;/td&gt;
+          &lt;td&gt;
+            55.28
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            あの世
+          &lt;/td&gt;
+          &lt;td&gt;
+            あのよ
+          &lt;/td&gt;
+          &lt;td&gt;
+            Heaven (literally &quot;that world&quot;)
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound but 世 is 53.53
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            現れる
+          &lt;/td&gt;
+          &lt;td&gt;
+            あらわれる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to appear
+          &lt;/td&gt;
+          &lt;td&gt;
+            43.87
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            喜ぶ
+          &lt;/td&gt;
+          &lt;td&gt;
+            よろこぶ
+          &lt;/td&gt;
+          &lt;td&gt;
+            to be happy
+          &lt;/td&gt;
+          &lt;td&gt;
+            43.19
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            船
+          &lt;/td&gt;
+          &lt;td&gt;
+            ふね
+          &lt;/td&gt;
+          &lt;td&gt;
+            ship/boat
+          &lt;/td&gt;
+          &lt;td&gt;
+            42.32
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            捨てる
+          &lt;/td&gt;
+          &lt;td&gt;
+            すてる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to drop/to throw away
+          &lt;/td&gt;
+          &lt;td&gt;
+            41.73
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            一言
+          &lt;/td&gt;
+          &lt;td&gt;
+            ひとこと
+          &lt;/td&gt;
+          &lt;td&gt;
+            a single word
+          &lt;/td&gt;
+          &lt;td&gt;
+            40.03
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            涙
+          &lt;/td&gt;
+          &lt;td&gt;
+            なみだ
+          &lt;/td&gt;
+          &lt;td&gt;
+            tears
+          &lt;/td&gt;
+          &lt;td&gt;
+            39.8
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            消える
+          &lt;/td&gt;
+          &lt;td&gt;
+            きえる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to disappear
+          &lt;/td&gt;
+          &lt;td&gt;
+            39.47
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            約束の
+          &lt;/td&gt;
+          &lt;td&gt;
+            やくそくの
+          &lt;/td&gt;
+          &lt;td&gt;
+            promised
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound but 約束 is 37.01
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            運ぶ
+          &lt;/td&gt;
+          &lt;td&gt;
+            はこぶ
+          &lt;/td&gt;
+          &lt;td&gt;
+            to carry
+          &lt;/td&gt;
+          &lt;td&gt;
+            31.82
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            代わりに
+          &lt;/td&gt;
+          &lt;td&gt;
+            かわりに
+          &lt;/td&gt;
+          &lt;td&gt;
+            in exchange
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound but 代わり is 30.03
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            匹
+          &lt;/td&gt;
+          &lt;td&gt;
+            ひき
+          &lt;/td&gt;
+          &lt;td&gt;
+            counter for certain animals
+          &lt;/td&gt;
+          &lt;td&gt;
+            29.19
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            辛い
+          &lt;/td&gt;
+          &lt;td&gt;
+            つらい
+          &lt;/td&gt;
+          &lt;td&gt;
+            painful
+          &lt;/td&gt;
+          &lt;td&gt;
+            28.85
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            せっかくの
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            something you went to all the trouble for
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound word but せっかく is 27.96
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            迷う
+          &lt;/td&gt;
+          &lt;td&gt;
+            まよう
+          &lt;/td&gt;
+          &lt;td&gt;
+            to wander in a lost kind of way
+          &lt;/td&gt;
+          &lt;td&gt;
+            25.3
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            壊れる
+          &lt;/td&gt;
+          &lt;td&gt;
+            こわれる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to break/to break down
+          &lt;/td&gt;
+          &lt;td&gt;
+            18.93
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            諦める
+          &lt;/td&gt;
+          &lt;td&gt;
+            あきらめる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to give up
+          &lt;/td&gt;
+          &lt;td&gt;
+            16
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            貧しい
+          &lt;/td&gt;
+          &lt;td&gt;
+            まずしい
+          &lt;/td&gt;
+          &lt;td&gt;
+            poor
+          &lt;/td&gt;
+          &lt;td&gt;
+            14.39
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            晩
+          &lt;/td&gt;
+          &lt;td&gt;
+            ばん
+          &lt;/td&gt;
+          &lt;td&gt;
+            night/evening
+          &lt;/td&gt;
+          &lt;td&gt;
+            13.92
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            今夜
+          &lt;/td&gt;
+          &lt;td&gt;
+            こんや
+          &lt;/td&gt;
+          &lt;td&gt;
+            tonight
+          &lt;/td&gt;
+          &lt;td&gt;
+            13.5
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            松
+          &lt;/td&gt;
+          &lt;td&gt;
+            まつ
+          &lt;/td&gt;
+          &lt;td&gt;
+            pine (tree)
+          &lt;/td&gt;
+          &lt;td&gt;
+            12.29
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            引き上げる
+          &lt;/td&gt;
+          &lt;td&gt;
+            ひきあげる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to raise up (transitive)
+          &lt;/td&gt;
+          &lt;td&gt;
+            10.89
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            揃える
+          &lt;/td&gt;
+          &lt;td&gt;
+            そろえる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to align/to coordinate
+          &lt;/td&gt;
+          &lt;td&gt;
+            10.83
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            枝
+          &lt;/td&gt;
+          &lt;td&gt;
+            えだ
+          &lt;/td&gt;
+          &lt;td&gt;
+            branch
+          &lt;/td&gt;
+          &lt;td&gt;
+            10.54
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            わし
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            I/me for an old person
+          &lt;/td&gt;
+          &lt;td&gt;
+            8.15
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            引っかかる
+          &lt;/td&gt;
+          &lt;td&gt;
+            ひっかかる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to be caught on something
+          &lt;/td&gt;
+          &lt;td&gt;
+            6.48
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            お寺
+          &lt;/td&gt;
+          &lt;td&gt;
+            おてら
+          &lt;/td&gt;
+          &lt;td&gt;
+            Buddhist temple
+          &lt;/td&gt;
+          &lt;td&gt;
+            5.53
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            幽霊
+          &lt;/td&gt;
+          &lt;td&gt;
+            ゆうれい
+          &lt;/td&gt;
+          &lt;td&gt;
+            ghost
+          &lt;/td&gt;
+          &lt;td&gt;
+            5.15
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            大物
+          &lt;/td&gt;
+          &lt;td&gt;
+            おおもの
+          &lt;/td&gt;
+          &lt;td&gt;
+            a big thing
+          &lt;/td&gt;
+          &lt;td&gt;
+            5.11
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            めったにない
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            rare
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound but めったに is 4.78
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            拭く
+          &lt;/td&gt;
+          &lt;td&gt;
+            ふく
+          &lt;/td&gt;
+          &lt;td&gt;
+            to wipe
+          &lt;/td&gt;
+          &lt;td&gt;
+            4.8
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            袖
+          &lt;/td&gt;
+          &lt;td&gt;
+            そで
+          &lt;/td&gt;
+          &lt;td&gt;
+            sleeve
+          &lt;/td&gt;
+          &lt;td&gt;
+            3.79
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            かすかな
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            faint/dim/weak
+          &lt;/td&gt;
+          &lt;td&gt;
+            3.38
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            可哀想
+          &lt;/td&gt;
+          &lt;td&gt;
+            かわいそう
+          &lt;/td&gt;
+          &lt;td&gt;
+            pitiable/something or someone to feel sorry for
+          &lt;/td&gt;
+          &lt;td&gt;
+            3.31
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            恨み
+          &lt;/td&gt;
+          &lt;td&gt;
+            うらみ
+          &lt;/td&gt;
+          &lt;td&gt;
+            grudge
+          &lt;/td&gt;
+          &lt;td&gt;
+            3.05
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            漁師
+          &lt;/td&gt;
+          &lt;td&gt;
+            りょうし
+          &lt;/td&gt;
+          &lt;td&gt;
+            fisherman
+          &lt;/td&gt;
+          &lt;td&gt;
+            3.03
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            葬る
+          &lt;/td&gt;
+          &lt;td&gt;
+            ほうむる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to bury
+          &lt;/td&gt;
+          &lt;td&gt;
+            2.67
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            フッと
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            with a &quot;whff&quot;
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound but フッ is 2.28
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            溺れる
+          &lt;/td&gt;
+          &lt;td&gt;
+            おぼれる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to drown
+          &lt;/td&gt;
+          &lt;td&gt;
+            2.25
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            夜釣り
+          &lt;/td&gt;
+          &lt;td&gt;
+            よづり
+          &lt;/td&gt;
+          &lt;td&gt;
+            night fishing
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            どうしたことか
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            for some reason
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            一匹
+          &lt;/td&gt;
+          &lt;td&gt;
+            いっぴき
+          &lt;/td&gt;
+          &lt;td&gt;
+            one fish/dog/cat
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            釣りざお
+          &lt;/td&gt;
+          &lt;td&gt;
+            つりざお
+          &lt;/td&gt;
+          &lt;td&gt;
+            fishing rod
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            弓なり
+          &lt;/td&gt;
+          &lt;td&gt;
+            ゆみなり
+          &lt;/td&gt;
+          &lt;td&gt;
+            arch
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            手応え
+          &lt;/td&gt;
+          &lt;td&gt;
+            てごたえ
+          &lt;/td&gt;
+          &lt;td&gt;
+            response
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            釣り糸
+          &lt;/td&gt;
+          &lt;td&gt;
+            つりいと
+          &lt;/td&gt;
+          &lt;td&gt;
+            fishing line
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            〜の先に
+          &lt;/td&gt;
+          &lt;td&gt;
+            〜のさきに
+          &lt;/td&gt;
+          &lt;td&gt;
+            at the end of (an object)
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound word
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            亡骸
+          &lt;/td&gt;
+          &lt;td&gt;
+            なきがら
+          &lt;/td&gt;
+          &lt;td&gt;
+            corpse
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            和尚
+          &lt;/td&gt;
+          &lt;td&gt;
+            おしょう
+          &lt;/td&gt;
+          &lt;td&gt;
+            Buddhist priest
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            弔う
+          &lt;/td&gt;
+          &lt;td&gt;
+            とむらう
+          &lt;/td&gt;
+          &lt;td&gt;
+            to hold a funeral service for
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            手厚い
+          &lt;/td&gt;
+          &lt;td&gt;
+            てあつい
+          &lt;/td&gt;
+          &lt;td&gt;
+            courteous/warm
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            迷わず
+          &lt;/td&gt;
+          &lt;td&gt;
+            まよわず
+          &lt;/td&gt;
+          &lt;td&gt;
+            without wavering/without wandering
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            inflected word
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            心残り
+          &lt;/td&gt;
+          &lt;td&gt;
+            こころのこり
+          &lt;/td&gt;
+          &lt;td&gt;
+            regret
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            何なり
+          &lt;/td&gt;
+          &lt;td&gt;
+            なんなり
+          &lt;/td&gt;
+          &lt;td&gt;
+            whatever/anything
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            好きな人
+          &lt;/td&gt;
+          &lt;td&gt;
+            すきなひと
+          &lt;/td&gt;
+          &lt;td&gt;
+            a person one loves
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            嫁入り
+          &lt;/td&gt;
+          &lt;td&gt;
+            よめいり
+          &lt;/td&gt;
+          &lt;td&gt;
+            wedding/marriage
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            縁談
+          &lt;/td&gt;
+          &lt;td&gt;
+            えんだん
+          &lt;/td&gt;
+          &lt;td&gt;
+            proposal of marriage
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            さぞ
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            certainly
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            よしよし
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            “there, there,” words of soothing encouragement/solace
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too casual for a corpus
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            今となっては
+          &lt;/td&gt;
+          &lt;td&gt;
+            いまとなっては
+          &lt;/td&gt;
+          &lt;td&gt;
+            now that it's right now
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            手遅れ
+          &lt;/td&gt;
+          &lt;td&gt;
+            ておくれ
+          &lt;/td&gt;
+          &lt;td&gt;
+            late/too late
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            消え去る
+          &lt;/td&gt;
+          &lt;td&gt;
+            きえさる
+          &lt;/td&gt;
+          &lt;td&gt;
+            to leave by way of disappearing
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            あくる
+          &lt;/td&gt;
+          &lt;td&gt;
+            
+          &lt;/td&gt;
+          &lt;td&gt;
+            the next
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            too infrequent
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            嫁に行く
+          &lt;/td&gt;
+          &lt;td&gt;
+            よめにいく
+          &lt;/td&gt;
+          &lt;td&gt;
+            to marry (brides traditionally went to live with their husband's family, so they “go bride”)
+          &lt;/td&gt;
+          &lt;td&gt;
+            N/A
+          &lt;/td&gt;
+          &lt;td&gt;
+            compound
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+      &lt;/tbody&gt;
+  &lt;/table&gt;</content><author><name></name></author><summary type="html">Japanese Readers Series #1: Yuurei no Sodekake Background/Intro Personally, I get a lot of mileage out of learning vocab out of context first and then &quot;stumbling&quot; upon it while reading (I had a whole class that used this method once and it was great). If you are like this, or you'd like to try it, I suggest learning whatever vocab you want to learn out of context before you try to read through the text, and reading may cement its meaning better for you. The vocabulary is ordered in decreasing frequency (most frequent words at the top). I used the Leeds corpus for the ratings (although I'm currently researching better options for this that contain more words!). If a phrase was a compound or inflected word, its frequency is listed as &quot;N/A&quot; with a reason. If the phrase is a compound but one of the seed words is in the frequency corpus, I included it in the proper place in the list. If the word is not on the top 15,000 most frequent words, it is listed as &quot;too infrequent.&quot; I listed links for the grammar skills needed to completely understand this text. As with the vocab, learning these ahead of time might prime you nicely for cementing the knowledge when you read the text. Or you can just use them as a reference and let the text wash over you, if that's more your style. It's not quite as easy to judge frequency with grammar (you can cross reference JLPT lists if you'd like, but not everything is on the JLPT!), so just learn what seems interesting or useful to you. Depending on your proficiency level, I suggest you ignore words or grammar points that are much more advanced or infrequent than you generally encounter right now. You can always come back to these materials at a later time and delve deeper. Remember that language learning is about getting comfortable with ambiguity, uncertainty, and NOT knowing everything right now. Get SOMETHING out of it and you have succeeded. I've included a rough translation of the text. I did it kind of quickly and made it more literal than smooth/idiomatic on purpose, as I find this helps me learn better. It's a reference tool, not a bible :) Try reading aloud or listening to the audio (if it works!). I find the full kanji version easier to read, but you might prefer the all-hiragana version. Take notes, make flashcards, read about grammar, and feel free to ask questions! Text Links 幽霊の袖かけまつ (hiragana only) 幽霊の袖かけまつ (with kanji) Vocab List Vocab List Kanji Reading English Gloss Frequency Reason for N/A Frequency 言う いう to say 1263.36 今日 きょう today 412.67 聞く きく to listen 392.28 来る くる to come 369.72 作る つくる to make 296.6 次の〜 つぎの〜 the next ~ N/A compound word but 次 is 271.58 買う かう to buy 254.9 かける to hang something on something else 168.92 声 こえ voice 155.19 呼ぶ よぶ to call out/to call 149.08 元 もと root/origin (can also metaphorically mean place something or someone is) 138.74 帰る かえる to go home 135.16 実は じつは actually 129.91 話す はなす to speak/to say 123.18 近くの ちかくの nearby N/A compound but 近く is 92.02 死ぬ しぬ to die 88.79 若い わかい young 83.95 娘 むすめ daughter/girl 74.48 ところが however 71.89 先日 せんじつ the other day/recently 62.28 古い ふるい old 55.28 あの世 あのよ Heaven (literally &quot;that world&quot;) N/A compound but 世 is 53.53 現れる あらわれる to appear 43.87 喜ぶ よろこぶ to be happy 43.19 船 ふね ship/boat 42.32 捨てる すてる to drop/to throw away 41.73 一言 ひとこと a single word 40.03 涙 なみだ tears 39.8 消える きえる to disappear 39.47 約束の やくそくの promised N/A compound but 約束 is 37.01 運ぶ はこぶ to carry 31.82 代わりに かわりに in exchange N/A compound but 代わり is 30.03 匹 ひき counter for certain animals 29.19 辛い つらい painful 28.85 せっかくの something you went to all the trouble for N/A compound word but せっかく is 27.96 迷う まよう to wander in a lost kind of way 25.3 壊れる こわれる to break/to break down 18.93 諦める あきらめる to give up 16 貧しい まずしい poor 14.39 晩 ばん night/evening 13.92 今夜 こんや tonight 13.5 松 まつ pine (tree) 12.29 引き上げる ひきあげる to raise up (transitive) 10.89 揃える そろえる to align/to coordinate 10.83 枝 えだ branch 10.54 わし I/me for an old person 8.15 引っかかる ひっかかる to be caught on something 6.48 お寺 おてら Buddhist temple 5.53 幽霊 ゆうれい ghost 5.15 大物 おおもの a big thing 5.11 めったにない rare N/A compound but めったに is 4.78 拭く ふく to wipe 4.8 袖 そで sleeve 3.79 かすかな faint/dim/weak 3.38 可哀想 かわいそう pitiable/something or someone to feel sorry for 3.31 恨み うらみ grudge 3.05 漁師 りょうし fisherman 3.03 葬る ほうむる to bury 2.67 フッと with a &quot;whff&quot; N/A compound but フッ is 2.28 溺れる おぼれる to drown 2.25 夜釣り よづり night fishing N/A too infrequent どうしたことか for some reason N/A compound 一匹 いっぴき one fish/dog/cat N/A compound 釣りざお つりざお fishing rod N/A too infrequent 弓なり ゆみなり arch N/A too infrequent 手応え てごたえ response N/A too infrequent 釣り糸 つりいと fishing line N/A too infrequent 〜の先に 〜のさきに at the end of (an object) N/A compound word 亡骸 なきがら corpse N/A too infrequent 和尚 おしょう Buddhist priest N/A too infrequent 弔う とむらう to hold a funeral service for N/A too infrequent 手厚い てあつい courteous/warm N/A too infrequent 迷わず まよわず without wavering/without wandering N/A inflected word 心残り こころのこり regret N/A too infrequent 何なり なんなり whatever/anything N/A too infrequent 好きな人 すきなひと a person one loves N/A compound 嫁入り よめいり wedding/marriage N/A too infrequent 縁談 えんだん proposal of marriage N/A too infrequent さぞ certainly N/A too infrequent よしよし “there, there,” words of soothing encouragement/solace N/A too casual for a corpus 今となっては いまとなっては now that it's right now N/A compound 手遅れ ておくれ late/too late N/A too infrequent 消え去る きえさる to leave by way of disappearing N/A compound あくる the next N/A too infrequent 嫁に行く よめにいく to marry (brides traditionally went to live with their husband's family, so they “go bride”) N/A compound</summary></entry><entry><title type="html">What I’ve Been Working On</title><link href="http://localhost:4000/accounting/2019/09/13/what-ive-been-working-on.html" rel="alternate" type="text/html" title="What I've Been Working On" /><published>2019-09-13T08:00:28-05:00</published><updated>2019-09-13T08:00:28-05:00</updated><id>http://localhost:4000/accounting/2019/09/13/what-ive-been-working-on</id><content type="html" xml:base="http://localhost:4000/accounting/2019/09/13/what-ive-been-working-on.html">&lt;p&gt;For the past several months, I've just kept a notes file open with the title &quot;Ideas&quot; that I periodically dump stuff into. I'm a lot better at generating ideas than following through on them. I often quickly become bored or, more commonly, convince myself that my idea wasn't that great to begin with, so it should be abandoned before anyone else wastes their time. But I want to follow through on this: I'm keeping a blog, I'm going to talk about language learning somewhere other than in my various-levels-of-willing friends' gchat windows, and I'm going to write some tutorials for annoying but useful tech junk I've done. Join me on this wild ride if you dare.&lt;/p&gt;
 
 &lt;p&gt;To begin, let's start with a list of links that I have categorized in my bookmarks as &quot;Stuff I Talk About All The Time.&quot; These are links I dig for because they are often relevant to what I'm thinking about or conversations I'm having, and you can probably tell a lot about me from them.&lt;/p&gt;
 

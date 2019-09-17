@@ -1,11 +1,11 @@
+- title: Home
+  url: /
+  
 - title: About
-  url: about.html
+  url: /about/
 
 - title: Blog
-  url: blog.html
+  url: /blog/
 
-- title: Japanese Reader
-  url: japanesereader.html
-  
 - title: Tags
-  url: tags.html
+  url: /tags/

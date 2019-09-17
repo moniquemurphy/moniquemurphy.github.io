@@ -2,6 +2,18 @@
 ---
 @import "{{ site.theme }}";
 
-.testing {
-	color: red;
+.high-frequency {
+	background-color: #d8ffee;
+}
+
+.mid-frequency {
+	background-color: #ffffdf;
+}
+
+.low-frequency {
+	background-color: #ffebce;
+}
+
+.very-low-frequency {
+	background-color: #ffe7eb;
 }

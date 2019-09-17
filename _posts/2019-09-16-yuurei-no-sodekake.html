@@ -1,0 +1,89 @@
+---
+layout: default
+title: Japanese Readers Series 1 - Yuurei no Sodekake
+---
+<h1>Japanese Readers Series #1: Yuurei no Sodekake</h1>
+<h2>Background/Intro</h2>
+  <p>
+    Personally, I get a lot of mileage out of learning vocab out of context first and then "stumbling" upon it while reading (I had a whole class that used this method once and it was great). If you are like this, or you'd like to try it, I suggest learning whatever vocab you want to learn out of context before you try to read through the text, and reading may cement its meaning better for you.
+  </p>
+  <p>
+    The vocabulary is ordered in decreasing frequency (most frequent words at the top). I used the <a href="http://www.manythings.org/japanese/words/leeds/">Leeds corpus</a> for the ratings (although I'm currently researching better options for this that contain more words!). If a phrase was a compound or inflected word, its frequency is listed as "N/A" with a reason. If the phrase is a compound but one of the seed words is in the frequency corpus, I included it in the proper place in the list. If the word is not on the top 15,000 most frequent words, it is listed as "too infrequent."
+  </p>
+  <p>
+    I listed links for the grammar skills needed to completely understand this text. As with the vocab, learning these ahead of time might prime you nicely for cementing the knowledge when you read the text. Or you can just use them as a reference and let the text wash over you, if that's more your style. It's not quite as easy to judge frequency with grammar (you can cross reference JLPT lists if you'd like, but not everything is on the JLPT!), so just learn what seems interesting or useful to you.
+  </p>
+  <p>
+    Depending on your proficiency level, I suggest you ignore words or grammar points that are much more advanced or infrequent than you generally encounter right now. You can always come back to these materials at a later time and delve deeper. Remember that language learning is about getting comfortable with ambiguity, uncertainty, and NOT knowing everything right now. Get SOMETHING out of it and you have succeeded.
+  </p>
+  <p>
+    I've included a rough translation of the text. I did it kind of quickly and made it more literal than smooth/idiomatic on purpose, as I find this helps me learn better. It's a reference tool, not a bible :)
+  </p>
+  <p>
+    Try reading aloud or listening to the audio (if it works!). I find the full kanji version easier to read, but you might prefer the all-hiragana version.
+  </p>
+  <p>
+    Take notes, make flashcards, read about grammar, and feel free to ask questions!
+  </p>
+  <h2>Text Links</h2>
+    <ul>
+      <li>
+        <a href="http://hukumusume.com/douwa/0_6/jap_pc/01/04.htm">幽霊の袖かけまつ (hiragana only)</a>
+      </li>
+      <li>
+        <a href="http://hukumusume.com/douwa/pc/jap/01/04.htm">幽霊の袖かけまつ (with kanji)</a>
+      </li>
+    </ul>
+  <h2>Vocab List</h2>
+  <table>
+    <caption>
+    Vocab List
+    </caption>
+    <thead>
+      <tr>
+        <th scope="col">
+          Kanji
+        </th>
+        <th scope="col">
+          Reading
+        </th>
+        <th scope="col">
+          English Gloss
+        </th>
+        <th scope="col">
+          Frequency
+        </th>
+        <th scope="col">
+          Reason for N/A Frequency
+        </th>
+        </thead>
+        <tbody>
+        {% for item in site.data.jreaders.jreader1 %}
+        {% if item.frequency > 50 %}
+        <tr class="high-frequency">
+        {% elsif 10 <= item.frequency <= 50 %}
+        <tr class="mid-frequency">
+        {% elsif item.frequency < 10 %}
+        <tr class="low-frequency">
+        {% else %}
+        <tr class="very-low-frequency">
+        {% endif %}
+          <td>
+            {{ item.kanji }}
+          </td>
+          <td>
+            {{ item.reading }}
+          </td>
+          <td>
+            {{ item.english }}
+          </td>
+          <td>
+            {{ item.frequency }}
+          </td>
+          <td>
+            {{ item.reason }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+  </table>
