@@ -4,7 +4,7 @@
     reading: いう
     english: to say
     frequency: 1263.36
-    reason:
+    reason: 
 -
     kanji: 今日
     reading: きょう
@@ -33,7 +33,7 @@
     kanji: 次の〜
     reading: つぎの〜
     english: the next ~
-    frequency: N/A
+    frequency: 271.58
     reason: compound word but 次 is 271.58
 -
     kanji: 買う
@@ -87,7 +87,7 @@
     kanji: 近くの
     reading: ちかくの
     english: nearby
-    frequency: N/A
+    frequency: 92.02
     reason: compound but 近く is 92.02
 -
     kanji: 死ぬ
@@ -129,7 +129,7 @@
     kanji: あの世
     reading: あのよ
     english: Heaven (literally "that world")
-    frequency: N/A
+    frequency: 53.53
     reason: compound but 世 is 53.53
 -
     kanji: 現れる
@@ -177,7 +177,7 @@
     kanji: 約束の
     reading: やくそくの
     english: promised
-    frequency: N/A
+    frequency: 37.01
     reason: compound but 約束 is 37.01
 -
     kanji: 運ぶ
@@ -189,7 +189,7 @@
     kanji: 代わりに
     reading: かわりに
     english: in exchange
-    frequency: N/A
+    frequency: 30.03
     reason: compound but 代わり is 30.03
 -
     kanji: 匹
@@ -207,7 +207,7 @@
     kanji: せっかくの
     reading:
     english: something you went to all the trouble for
-    frequency: N/A
+    frequency: 27.96
     reason: compound word but せっかく is 27.96
 -
     kanji: 迷う
@@ -303,7 +303,7 @@
     kanji: めったにない
     reading:
     english: rare
-    frequency: N/A
+    frequency: 4.78
     reason: compound but めったに is 4.78
 -
     kanji: 拭く
@@ -351,7 +351,7 @@
     kanji: フッと
     reading:
     english: with a "whff"
-    frequency: N/A
+    frequency: 2.28
     reason: compound but フッ is 2.28
 -
     kanji: 溺れる
@@ -363,149 +363,149 @@
     kanji: 夜釣り
     reading: よづり
     english: night fishing
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: どうしたことか
     reading:
     english: for some reason
-    frequency: N/A
+    frequency: 0
     reason: compound
 -
     kanji: 一匹
     reading: いっぴき
     english: one fish/dog/cat
-    frequency: N/A
+    frequency: 0
     reason: compound
 -
     kanji: 釣りざお
     reading: つりざお
     english: fishing rod
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 弓なり
     reading: ゆみなり
     english: arch
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 手応え
     reading: てごたえ
     english: response
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 釣り糸
     reading: つりいと
     english: fishing line
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 〜の先に
     reading: 〜のさきに
     english: at the end of (an object)
-    frequency: N/A
+    frequency: 0
     reason: compound word
 -
     kanji: 亡骸
     reading: なきがら
     english: corpse
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 和尚
     reading: おしょう
     english: Buddhist priest
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 弔う
     reading: とむらう
     english: to hold a funeral service for
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 手厚い
     reading: てあつい
     english: courteous/warm
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 迷わず
     reading: まよわず
     english: without wavering/without wandering
-    frequency: N/A
+    frequency: 0
     reason: inflected word
 -
     kanji: 心残り
     reading: こころのこり
     english: regret
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 何なり
     reading: なんなり
     english: whatever/anything
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 好きな人
     reading: すきなひと
     english: a person one loves
-    frequency: N/A
+    frequency: 0
     reason: compound
 -
     kanji: 嫁入り
     reading: よめいり
     english: wedding/marriage
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 縁談
     reading: えんだん
     english: proposal of marriage
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: さぞ
     reading:
     english: certainly
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: よしよし
     reading:
     english: “there, there,” words of soothing encouragement/solace
-    frequency: N/A
+    frequency: 0
     reason: too casual for a corpus
 -
     kanji: 今となっては
     reading: いまとなっては
     english: 'now that it''s right now'
-    frequency: N/A
+    frequency: 0
     reason: compound
 -
     kanji: 手遅れ
     reading: ておくれ
     english: late/too late
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 消え去る
     reading: きえさる
     english: to leave by way of disappearing
-    frequency: N/A
+    frequency: 0
     reason: compound
 -
     kanji: あくる
     reading:
     english: the next
-    frequency: N/A
+    frequency: 0
     reason: too infrequent
 -
     kanji: 嫁に行く
     reading: よめにいく
     english: 'to marry (brides traditionally went to live with their husband''s family, so they “go bride”)'
-    frequency: N/A
+    frequency: 0
     reason: compound
