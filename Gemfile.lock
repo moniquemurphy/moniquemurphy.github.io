@@ -261,5 +261,5 @@ DEPENDENCIES
   rake (~> 12)
   tzinfo-data
 
-RUBY VERSION
-   ruby 2.6.4p104
+BUNDLED WITH
+   2.0.2
