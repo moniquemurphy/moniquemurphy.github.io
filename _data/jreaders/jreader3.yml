@@ -1,0 +1,859 @@
+---
+-
+    kanji: いる
+    reading: 
+    english: to be
+    frequency: 9450.26
+    notes: 
+-
+    kanji: なる
+    reading: 
+    english: to become
+    frequency: 4585.21
+    notes: 
+-
+    kanji: ある
+    reading: 
+    english: to be (inanimate)
+    frequency: 4306.64
+    notes: 
+-
+    kanji: 言う
+    reading: いう
+    english: to say, to tell
+    frequency: 2503.41
+    notes: 
+-
+    kanji: もの
+    reading: 
+    english: thing
+    frequency: 2321.65
+    notes: 
+-
+    kanji: できる
+    reading: 
+    english: to be able to do
+    frequency: 1949.53
+    notes: 
+-
+    kanji: 私
+    reading: わたし
+    english: I, me
+    frequency: 1769.37
+    notes: 
+-
+    kanji: 思う
+    reading: おもう
+    english: to think
+    frequency: 1179.8
+    notes: 
+-
+    kanji: みる
+    reading: 
+    english: to look at
+    frequency: 1163.23
+    notes: 
+-
+    kanji: 自分
+    reading: じぶん
+    english: oneself
+    frequency: 1010.73
+    notes: 
+-
+    kanji: なに？
+    reading: 
+    english: what?
+    frequency: 877.59
+    notes: 
+-
+    kanji: ～の前
+    reading: ～のまえ
+    english: in front of ~
+    frequency: 614.09
+    notes: compound, 前 is 614.09
+-
+    kanji: そして
+    reading: 
+    english: and
+    frequency: 561.3
+    notes: 
+-
+    kanji: 出る
+    reading: でる
+    english: to exit, to leave
+    frequency: 553.51
+    notes: 
+-
+    kanji: 入る
+    reading: はいる
+    english: to enter, to start (metaphorical)
+    frequency: 473.93
+    notes: 
+-
+    kanji: ひとつだけ
+    reading: 
+    english: just one thing
+    frequency: 457.67
+    notes: compound, ひとつ is 457.67
+-
+    kanji: やる
+    reading: 
+    english: informal version of する
+    frequency: 435.1
+    notes: 
+-
+    kanji: 情報
+    reading: じょうほう
+    english: information
+    frequency: 359.14
+    notes: 
+-
+    kanji: 男
+    reading: おとこ
+    english: man
+    frequency: 347.96
+    notes: 
+-
+    kanji: ～回
+    reading: かい
+    english: ~times
+    frequency: 329.46
+    notes: 
+-
+    kanji: 置く
+    reading: おく
+    english: to leave something
+    frequency: 189.56
+    notes: 
+-
+    kanji: 食べる
+    reading: たべる
+    english: to eat
+    frequency: 189.42
+    notes: 
+-
+    kanji: 生きる
+    reading: いきる
+    english: to live, to be alive
+    frequency: 177.18
+    notes: 
+-
+    kanji: 今日
+    reading: きょう
+    english: today
+    frequency: 173.4
+    notes: 
+-
+    kanji: こちら
+    reading: 
+    english: this direction (polite)
+    frequency: 169.02
+    notes: 
+-
+    kanji: 初めての
+    reading: はじめての
+    english: first (+ noun)
+    frequency: 154.27
+    notes: compound, 初めて is 154.27
+-
+    kanji: 母
+    reading: はは
+    english: mother
+    frequency: 152.5
+    notes: 
+-
+    kanji: 飲む
+    reading: のむ
+    english: to drink
+    frequency: 152.43
+    notes: 
+-
+    kanji: 父
+    reading: ちち
+    english: father (out-group kinship term or abbreviation)
+    frequency: 149.12
+    notes: 
+-
+    kanji: 帰る
+    reading: かえる
+    english: to go home
+    frequency: 144.35
+    notes: 
+-
+    kanji: 死ぬ
+    reading: しぬ
+    english: to die
+    frequency: 139.17
+    notes: 
+-
+    kanji: 描く
+    reading: かく
+    english: to draw
+    frequency: 136.85
+    notes: 
+-
+    kanji: 専門学校
+    reading: せんもんがっこう
+    english: specialized vocational college
+    frequency: 124.27
+    notes: compound (専門 is 124.27 and 学校 is 237.36)
+-
+    kanji: お店
+    reading: おみせ
+    english: store, shop
+    frequency: 120.45
+    notes: 
+-
+    kanji: 小さい
+    reading: ちいさい
+    english: small
+    frequency: 120.01
+    notes: 
+-
+    kanji: 話す
+    reading: はなす
+    english: to talk
+    frequency: 110.26
+    notes: 
+-
+    kanji: オレ
+    reading: 
+    english: I, me (hyper mascline)
+    frequency: 105.82
+    notes: 
+-
+    kanji: 色
+    reading: いろ
+    english: color
+    frequency: 103.58
+    notes: 
+-
+    kanji: 明日
+    reading: あした
+    english: tomorrow
+    frequency: 99.11
+    notes: 
+-
+    kanji: 始める
+    reading: はじめる
+    english: to begin
+    frequency: 96.55
+    notes: 
+-
+    kanji: 驚く
+    reading: おどろく
+    english: to be surprised
+    frequency: 92.77
+    notes: 
+-
+    kanji: しばらく
+    reading: 
+    english: a little while
+    frequency: 85.47
+    notes: 
+-
+    kanji: まるで
+    reading: 
+    english: almost like, just like
+    frequency: 84.42
+    notes: 
+-
+    kanji: ダメ
+    reading: 
+    english: no good
+    frequency: 80.84
+    notes: 
+-
+    kanji: 感覚
+    reading: かんかく
+    english: sensation
+    frequency: 77.8
+    notes: 
+-
+    kanji: 仕方
+    reading: しかた
+    english: method, way
+    frequency: 76.88
+    notes: 
+-
+    kanji: 日常
+    reading: にちじょう
+    english: everyday, everyday life
+    frequency: 75.89
+    notes: 
+-
+    kanji: すごい
+    reading: 
+    english: awesome, amazing
+    frequency: 71.66
+    notes: 
+-
+    kanji: いろいろ
+    reading: 
+    english: various
+    frequency: 69.18
+    notes: 
+-
+    kanji: 嬉しそう
+    reading: うれしそう
+    english: seems happy
+    frequency: 69.07
+    notes: inflected form, 嬉しい is 69.07
+-
+    kanji: 綺麗な
+    reading: きれいな
+    english: pretty
+    frequency: 68.12
+    notes: 
+-
+    kanji: 息子
+    reading: むすこ
+    english: son
+    frequency: 66.14
+    notes: 
+-
+    kanji: お母さん
+    reading: おかあさん
+    english: mother (in-group kinship term)
+    frequency: 61.1
+    notes: 
+-
+    kanji: 味
+    reading: あじ
+    english: flavor
+    frequency: 60.17
+    notes: 
+-
+    kanji: 友達
+    reading: ともだち
+    english: friend
+    frequency: 60.17
+    notes: 
+-
+    kanji: 瞬間
+    reading: しゅんかん
+    english: moment
+    frequency: 59.32
+    notes: 
+-
+    kanji: それでも
+    reading: 
+    english: even so
+    frequency: 58.32
+    notes: 
+-
+    kanji: 体験
+    reading: たいけん
+    english: (personal) experience
+    frequency: 56.66
+    notes: 
+-
+    kanji: 大丈夫
+    reading: だいじょうぶ
+    english: okay, all right
+    frequency: 54.82
+    notes: 
+-
+    kanji: 美味しい
+    reading: おいしい
+    english: delicious
+    frequency: 54.45
+    notes: 
+-
+    kanji: 一番
+    reading: いちばん
+    english: best, the most
+    frequency: 50.94
+    notes: 
+-
+    kanji: ついに
+    reading: 
+    english: at long last
+    frequency: 49.95
+    notes: 
+-
+    kanji: 記事
+    reading: きじ
+    english: article
+    frequency: 48.45
+    notes: 
+-
+    kanji: 急に
+    reading: きゅうに
+    english: suddenly
+    frequency: 46.81
+    notes: 
+-
+    kanji: 素材
+    reading: そざい
+    english: raw materials
+    frequency: 42.07
+    notes: 
+-
+    kanji: 甘い
+    reading: あまい
+    english: sweet (taste)
+    frequency: 41.63
+    notes: 
+-
+    kanji: おわり
+    reading: おわり
+    english: the end of something
+    frequency: 41.05
+    notes: 
+-
+    kanji: 兄弟
+    reading: きょうだい
+    english: brothers, siblings
+    frequency: 37.84
+    notes: 
+-
+    kanji: 高３
+    reading: こうさん
+    english: short for 高校三年生, third year in high school
+    frequency: 37.44
+    notes: shortened form, 高校 is 46.71 and　年生 is 37.44
+-
+    kanji: 〜年生
+    reading: 〜ねんせい
+    english: ~year student
+    frequency: 37.44
+    notes: 
+-
+    kanji: コーヒー
+    reading: 
+    english: coffee
+    frequency: 36.75
+    notes: 
+-
+    kanji: やってくる
+    reading: 
+    english: to come, to show up, to arrive
+    frequency: 35.66
+    notes: 
+-
+    kanji: 適当に
+    reading: てきとうに
+    english: half-assed, the bare minimum you can get away with
+    frequency: 31.98
+    notes: 
+-
+    kanji: 本格的に
+    reading: ほんかくてきに
+    english: genuinely
+    frequency: 29.12
+    notes: 
+-
+    kanji: 楽しみ
+    reading: たのしみ
+    english: looking forward to
+    frequency: 27.89
+    notes: 
+-
+    kanji: ～用
+    reading: ～よう
+    english: for the purpose of ~
+    frequency: 26.15
+    notes: 
+-
+    kanji: 我が家
+    reading: わがや
+    english: our house(hold)
+    frequency: 25
+    notes: 
+-
+    kanji: まかせて
+    reading: 
+    english: leave it to me!
+    frequency: 24.72
+    notes: inflected form, まかせる is 24.79
+-
+    kanji: ～のとこ
+    reading: 
+    english: '~''s place'
+    frequency: 23.64
+    notes: compound, とこ is 23.64
+-
+    kanji: 格好
+    reading: かっこう
+    english: costume, form, outfit
+    frequency: 23.49
+    notes: 
+-
+    kanji: 遺伝
+    reading: いでん
+    english: genetics
+    frequency: 20.29
+    notes: 
+-
+    kanji: 掃除する
+    reading: そうじする
+    english: to clean
+    frequency: 19.88
+    notes: 
+-
+    kanji: 病
+    reading: やまい、びょう
+    english: sickness, illness
+    frequency: 19.77
+    notes: 
+-
+    kanji: 田舎
+    reading: いなか
+    english: the countryside
+    frequency: 19.37
+    notes: 
+-
+    kanji: 摂取
+    reading: せっしゅ
+    english: intake, dietary intake
+    frequency: 19.37
+    notes: 
+-
+    kanji: 中
+    reading: なか
+    english: inside
+    frequency: 18.27
+    notes: 
+-
+    kanji: オレンジ
+    reading: 
+    english: orange
+    frequency: 17.32
+    notes: 
+-
+    kanji: 住まい
+    reading: すまい
+    english: dwelling, habitat
+    frequency: 16.98
+    notes: 
+-
+    kanji: 覗く
+    reading: のぞく
+    english: to peek at
+    frequency: 16.67
+    notes: 
+-
+    kanji: 頼りになる
+    reading: たよりになる
+    english: to be reliable
+    frequency: 15.58
+    notes: compound, 便り is 15.58
+-
+    kanji: 苦手
+    reading: にがて
+    english: to hate, to have trouble dealing with
+    frequency: 14.49
+    notes: 
+-
+    kanji: 実家
+    reading: じっか
+    english: 'one''s parents'' house'
+    frequency: 14.32
+    notes: 
+-
+    kanji: 平気
+    reading: へいき
+    english: okay, doing fine
+    frequency: 14.22
+    notes: 
+-
+    kanji: 長男
+    reading: ちょうなん
+    english: oldest son
+    frequency: 14.11
+    notes: 
+-
+    kanji: 説得
+    reading: せっとく
+    english: persuasion, influence
+    frequency: 14.08
+    notes: 
+-
+    kanji: 蛾
+    reading: が
+    english: moth
+    frequency: 13.81
+    notes: 
+-
+    kanji: 大分
+    reading: だいぶ
+    english: considerably
+    frequency: 12.91
+    notes: 
+-
+    kanji: 汚部屋
+    reading: おへや、おべや
+    english: dirty room
+    frequency: 12.72
+    notes: compound of 汚 (dirty, 汚い is 12.72) and 部屋 (frequency is 184.65)
+-
+    kanji: わりと
+    reading: 
+    english: relatively
+    frequency: 12.07
+    notes: compound, わり is 12.07
+-
+    kanji: 諦める
+    reading: あきらめる
+    english: to give up
+    frequency: 11.86
+    notes: 
+-
+    kanji: 前回
+    reading: ぜんかい
+    english: last time
+    frequency: 10.33
+    notes: 
+-
+    kanji: 片付ける
+    reading: かたづける
+    english: to tidy up
+    frequency: 7.84
+    notes: 
+-
+    kanji: カロリー
+    reading: 
+    english: calories
+    frequency: 7.74
+    notes: 
+-
+    kanji: 方
+    reading: かた
+    english: person (polite)
+    frequency: 7.67
+    notes: 
+-
+    kanji: すっきり
+    reading: 
+    english: refreshed
+    frequency: 6.07
+    notes: 
+-
+    kanji: 罪悪感
+    reading: ざいあくかん
+    english: feeling guilty
+    frequency: 5.08
+    notes: compound, 罪悪 is 5.08
+-
+    kanji: 交渉する
+    reading: こうしょうする
+    english: to negotiate
+    frequency: 4.98
+    notes: 
+-
+    kanji: ようこそ
+    reading: 
+    english: welcome
+    frequency: 4.48
+    notes: 
+-
+    kanji: 未知
+    reading: みち
+    english: as yet unknown
+    frequency: 4.09
+    notes: 
+-
+    kanji: 漬ける
+    reading: つける
+    english: to soak, to pickle
+    frequency: 4.06
+    notes: 
+-
+    kanji: ブログ
+    reading: 
+    english: blog
+    frequency: 3.78
+    notes: 
+-
+    kanji: 自由気ままに
+    reading: じゆうきままに
+    english: freewheeling
+    frequency: 3.69
+    notes: 自由 is 179.91 and 気まま is 3.69
+-
+    kanji: 一人暮らし
+    reading: ひとりぐらし
+    english: living alone
+    frequency: 3.55
+    notes: 
+-
+    kanji: プロフィール
+    reading: 
+    english: profile
+    frequency: 3.31
+    notes: 
+-
+    kanji: 段ボール
+    reading: だんボール
+    english: cardboard
+    frequency: 3.03
+    notes: 
+-
+    kanji: 思い立つ
+    reading: おもいたつ
+    english: 'to decide to do, to take it into one''s head to do'
+    frequency: 2.8
+    notes: 
+-
+    kanji: ばったり
+    reading: 
+    english: suddenly, with a thud
+    frequency: 2.59
+    notes: 
+-
+    kanji: 一晩
+    reading: ひとばん
+    english: one night, overnight
+    frequency: 2.49
+    notes: 
+-
+    kanji: 上達する
+    reading: じょうたつする
+    english: to make progress
+    frequency: 2.42
+    notes: 
+-
+    kanji: ゴキブリ
+    reading: 
+    english: cockroach
+    frequency: 1.94
+    notes: 
+-
+    kanji: コロッケ
+    reading: 
+    english: croquettes
+    frequency: 1.88
+    notes: 
+-
+    kanji: 切り札
+    reading: きりふだ
+    english: a trump card (literal and metaphorical)
+    frequency: 1.09
+    notes: 
+-
+    kanji: ローズマリー
+    reading: 
+    english: rosemary
+    frequency: 0.58
+    notes: 
+-
+    kanji: 早く
+    reading: はやく
+    english: quickly
+    frequency: 0.38
+    notes: 
+-
+    kanji: 売り切れ
+    reading: うりきれ
+    english: sold out
+    frequency: 0.34
+    notes: 
+-
+    kanji: ガサガサ
+    reading: 
+    english: sound of something rustling/crinkling (like plastic bags)
+    frequency: 0.27
+    notes: 
+-
+    kanji: アイスティー
+    reading: 
+    english: iced tea
+    frequency: 0.14
+    notes: 
+-
+    kanji: おだて
+    reading: 
+    english: flattery
+    frequency: 0.1
+    notes: 
+-
+    kanji: 黙々と
+    reading: もくもくと
+    english: silently
+    frequency: 0.03
+    notes: 
+-
+    kanji: アラフィフ
+    reading: 
+    english: 50-something
+    frequency: 0
+    notes: too infrequent
+-
+    kanji: よかったら
+    reading: 
+    english: 'if you''d like'
+    frequency: 0
+    notes: 
+-
+    kanji: ください
+    reading: 
+    english: please
+    frequency: 0
+    notes: 
+-
+    kanji: きゅっ
+    reading: 
+    english: onomatopoeia for tying a knot
+    frequency: 0
+    notes: 
+-
+    kanji: いざという時
+    reading: いざというとき
+    english: when push comes to shove
+    frequency: 0
+    notes: idiom
+-
+    kanji: こういう時
+    reading: こういうとき
+    english: times like this
+    frequency: 0
+    notes: compound
+-
+    kanji: ひょこ
+    reading: 
+    english: onomatopoeia for peeking out from behind something
+    frequency: 0
+    notes: 
+-
+    kanji: なんとかして
+    reading: 
+    english: do something!
+    frequency: 0
+    notes: "phrase\n"
+-
+    kanji: 平岡
+    reading: ひらおか
+    english: Hiraoka (surname)
+    frequency: 0
+    notes: 
+-
+    kanji: ド～
+    reading: 
+    english: extreme ~
+    frequency: 0
+    notes: 
+-
+    kanji: ド田舎
+    reading: ドいなか
+    english: the middle of nowhere, really out in the boonies
+    frequency: 0
+    notes: 
+-
+    kanji: ちょうどいい
+    reading: 
+    english: just right (like Goldilocks)
+    frequency: 0
+    notes: phrase
+-
+    kanji: 西陽
+    reading: にしはる
+    english: Nishiharu (proper name)
+    frequency: 0
+    notes: 
+-
+    kanji: ガムシロップ
+    reading: 
+    english: gum syrup
+    frequency: 0
+    notes: 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Japanese Readers Series Shorties 1 - Mei Reporting for Kodomo Shimbun 
 ---
 <h1>Japanese Readers Series Shorties #1: Mei Reporting for Kodomo Shimbun</h1>
@@ -37,10 +37,12 @@ title: Japanese Readers Series Shorties 1 - Mei Reporting for Kodomo Shimbun
         <tr class="high-frequency">
         {% elsif 10 <= item.frequency <= 50 %}
         <tr class="mid-frequency">
-        {% elsif 0 < item.frequency < 10 %}
+        {% elsif 1 < item.frequency < 10 %}
         <tr class="low-frequency">
-        {% else %}
+        {% elsif 0 < item.frequency < 1 %}
         <tr class="very-low-frequency">
+        {% else %}
+        <tr class="not-applicable">
         {% endif %}
           <td>
             {{ item.kanji }}

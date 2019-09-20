@@ -63,10 +63,12 @@ title: Japanese Readers Series 1 - Yuurei no Sodekake
         <tr class="high-frequency">
         {% elsif 10 <= item.frequency <= 50 %}
         <tr class="mid-frequency">
-        {% elsif 0 < item.frequency < 10 %}
+        {% elsif 1 < item.frequency < 10 %}
         <tr class="low-frequency">
-        {% else %}
+        {% elsif 0 < item.frequency < 1 %}
         <tr class="very-low-frequency">
+        {% else %}
+        <tr class="not-applicable">
         {% endif %}
           <td>
             {{ item.kanji }}
