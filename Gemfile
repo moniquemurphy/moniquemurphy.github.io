@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem "jekyll-compose", "~> 0.5"
   gem "jekyll-twitter-plugin"
   gem "jekyll-redirect-from"
+  gem "jekyll-tagging"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

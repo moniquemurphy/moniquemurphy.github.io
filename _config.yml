@@ -22,6 +22,9 @@ url: "https://www.momomori-eki.net" # the base hostname & protocol for your site
 twitter_username: mvioletmurphy
 github_username:  moniquemurphy
 repository: moniquemurphy/moniquemurphy.github.io
+tag_page_layout: tag_page
+tag_page_dir: tags
+permalink: pretty
 
 # Build settings
 markdown: kramdown
@@ -34,6 +37,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-compose
   - jekyll-redirect-from
+  - jekyll-tagging
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
