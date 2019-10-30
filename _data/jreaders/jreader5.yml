@@ -1,0 +1,313 @@
+---
+-
+    kanji: もの
+    reading:
+    english: item, object, thing
+    frequency: 2321.65
+    notes:
+-
+    kanji: できる
+    reading:
+    english: to be able to
+    frequency: 1949.53
+    notes:
+-
+    kanji: とき
+    reading:
+    english: time, instance
+    frequency: 1339.66
+    notes:
+-
+    kanji: 人
+    reading: ひと
+    english: person, people
+    frequency: 1171.96
+    notes:
+-
+    kanji: 見る
+    reading: みる
+    english: to look at
+    frequency: 1163.23
+    notes:
+-
+    kanji: 考える
+    reading: かんがえる
+    english: to think
+    frequency: 819.71
+    notes:
+-
+    kanji: お家
+    reading: おうち
+    english: the house, the home
+    frequency: 648.01
+    notes:
+-
+    kanji: ところ
+    reading:
+    english: place
+    frequency: 591.14
+    notes:
+-
+    kanji: 出る
+    reading: でる
+    english: to come out
+    frequency: 553.51
+    notes:
+-
+    kanji: 目
+    reading: め
+    english: eye
+    frequency: 472.81
+    notes:
+-
+    kanji: よぶ
+    reading:
+    english: to call (something by a certain name)
+    frequency: 300.46
+    notes:
+-
+    kanji: 出す
+    reading: だす
+    english: to put out, to express
+    frequency: 268.08
+    notes:
+-
+    kanji: 少しずつ
+    reading: すこしずつ
+    english: a little bit (at a time)
+    frequency: 250.04
+    notes: compound, frequency for 少し is 250.04
+-
+    kanji: 含む
+    reading: ふくむ
+    english: to contain, to include
+    frequency: 199.89
+    notes:
+-
+    kanji: いつも
+    reading:
+    english: always
+    frequency: 137.87
+    notes:
+-
+    kanji: あまり
+    reading:
+    english: not very much
+    frequency: 130.65
+    notes:
+-
+    kanji: かなり
+    reading:
+    english: quite a bit
+    frequency: 130.65
+    notes:
+-
+    kanji: 専門
+    reading: せんもん
+    english: specialty
+    frequency: 124.27
+    notes:
+-
+    kanji: 健康な
+    reading: けんこうな
+    english: healthy
+    frequency: 99.59
+    notes:
+-
+    kanji: 動く
+    reading: うごく
+    english: to move
+    frequency: 93.35
+    notes:
+-
+    kanji: 病気
+    reading: びょうき
+    english: illness, disease
+    frequency: 78.01
+    notes:
+-
+    kanji: 広がる
+    reading: ひろがる
+    english: to expand
+    frequency: 71.87
+    notes:
+-
+    kanji: 機械
+    reading: きかい
+    english: machinery
+    frequency: 65.8
+    notes:
+-
+    kanji: たくさん
+    reading:
+    english: a lot
+    frequency: 64.3
+    notes:
+-
+    kanji: 涙
+    reading: なみだ
+    english: tears
+    frequency: 51.31
+    notes:
+-
+    kanji: 裏
+    reading: うら
+    english: back, behind (something)
+    frequency: 48.72
+    notes:
+-
+    kanji: 流す
+    reading: ながす
+    english: to pour, to let flow
+    frequency: 47.7
+    notes:
+-
+    kanji: 医者
+    reading: いしゃ
+    english: doctor
+    frequency: 36.41
+    notes:
+-
+    kanji: 一度
+    reading: いちど
+    english: one time
+    frequency: 36
+    notes:
+-
+    kanji: 洗う
+    reading: あらう
+    english: to wash
+    frequency: 34.67
+    notes:
+-
+    kanji: 塗る
+    reading: ぬる
+    english: to coat, to paint
+    frequency: 29.18
+    notes:
+-
+    kanji: ごみ
+    reading:
+    english: dust, garbage
+    frequency: 25.64
+    notes:
+-
+    kanji: 油
+    reading: あぶら
+    english: oil
+    frequency: 25.3
+    notes:
+-
+    kanji: おすすめする
+    reading:
+    english: to recommend
+    frequency: 18.14
+    notes: "compound, おすすめ is 18.14\n"
+-
+    kanji: 役目
+    reading: やくめ
+    english: role
+    frequency: 14.22
+    notes:
+-
+    kanji: 液体
+    reading: えきたい
+    english: liquid
+    frequency: 14.15
+    notes:
+-
+    kanji: 清潔
+    reading: せいけつ
+    english: clean
+    frequency: 13.81
+    notes:
+-
+    kanji: 方
+    reading: かた
+    english: person (polite)
+    frequency: 12.21
+    notes:
+-
+    kanji: なめらか
+    reading:
+    english: smooth
+    frequency: 11.28
+    notes:
+-
+    kanji: まぶた
+    reading:
+    english: eyelid
+    frequency: 10.06
+    notes:
+-
+    kanji: 溜まる
+    reading: たまる
+    english: to build up, to accumulate
+    frequency: 4.43
+    notes:
+-
+    kanji: 反る
+    reading: そる
+    english: to bend, to curve
+    frequency: 4.13
+    notes:
+-
+    kanji: 瞬き
+    reading: またたき
+    english: blinking
+    frequency: 4.06
+    notes:
+-
+    kanji: 目元
+    reading: めもと
+    english: eye
+    frequency: 3.2
+    notes:
+-
+    kanji: 挿す
+    reading: さす
+    english: to put into, to insert
+    frequency: 2.18
+    notes:
+-
+    kanji: 押し流す
+    reading: おしながす
+    english: to wash away, to carry away
+    frequency: 1.06
+    notes:
+-
+    kanji: つまり
+    reading:
+    english: in other words
+    frequency: 0.89
+    notes:
+-
+    kanji: 結膜
+    reading: けつまく
+    english: conjunctiva
+    frequency: 0.61
+    notes:
+-
+    kanji: 粘り気
+    reading: ねばりけ
+    english: stickiness
+    frequency: 0.48
+    notes:
+-
+    kanji: 目やに
+    reading: めやに
+    english: eye mucus
+    frequency: 0.2
+    notes:
+-
+    kanji: 涙腺
+    reading: るいせん
+    english: lachrymal gland
+    frequency: 0.17
+    notes:
+-
+    kanji: など
+    reading:
+    english: and such, etc.
+    frequency: 0
+    notes: not in corpus, but pretty frequent
