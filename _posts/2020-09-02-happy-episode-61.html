@@ -1,0 +1,121 @@
+---
+layout: post
+title: 
+tags: japanesereaders
+---
+<h2>Intro</h2>
+<p>For background/how to use this series, see the <a href="{% post_url 2019-09-16-yuurei-no-sodekake %}">first post</a>.</p>
+
+
+
+<h2>Text Link</h2>
+<a href="https://www.instagram.com/p/CEnlvXkg98D/?utm_source=ig_web_copy_link">ハッピーエピソード#61</a>
+
+<h2>Vocabulary List</h2>
+<table>
+    <caption class="hidden">
+    Vocab List
+    </caption>
+    <thead>
+      <tr>
+        <th scope="col">
+          Kanji
+        </th>
+        <th scope="col">
+          Reading
+        </th>
+        <th scope="col">
+          English Gloss
+        </th>
+        <th scope="col">
+          Frequency
+        </th>
+        <th scope="col">
+          Notes
+        </th>
+    </thead>
+    <tbody>
+        {% for item in site.data.jreaders. %}
+        {% if item.frequency > 50 %}
+        <tr class="high-frequency">
+        {% elsif 10 <= item.frequency <= 50 %}
+        <tr class="mid-frequency">
+        {% elsif 1 < item.frequency < 10 %}
+        <tr class="low-frequency">
+        {% elsif 0 < item.frequency < 1 %}
+        <tr class="very-low-frequency">
+        {% else %}
+        <tr class="not-applicable">
+        {% endif %}
+          <td>
+            {{ item.kanji }}
+          </td>
+          <td>
+            {{ item.reading }}
+          </td>
+          <td>
+            {{ item.english }}
+          </td>
+          <td>
+            {{ item.frequency }}
+          </td>
+          <td>
+            {{ item.notes }}
+          </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+２  に  2
+〜歳　〜さい    ~years old
+息子    むすこ  son
+いる        to be (animate)
+介護職員    かいごしょくいん    caregiver
+１  いち    1
+日  ひ  day
+フル        full, full-time
+職場復帰    しょくばふっき  return to work
+体調    たいちょう  physical condition
+どう        how
+いい        good
+ありがと        thanks
+幸い    さいわい    fortunately
+施設    しせつ  center, establishment
+託児所  たくじしょ  day-care center
+そこ        there
+見てもらう  みてもらう  to be watched for
+いってらっしゃい        phrase used when saying goodbye to someone for the day
+バイバイ        bye-bye
+お願いします    おねがいします  set phrase for when someone else is doing a service for you
+
+
+<h2>Grammar List</h2>
+<ul>
+の
+が
+として
+から
+で
+は
+sentence final particles
+〜てもらう
+ことに
+があり
+ている
+</ul>
+
+
+<h2>Translation</h2>
+<h5>[001-1]</h5>
+<p>Happy episode #61</p>
+<p>I have a two-year old son.</p>
+<h5>[001-2]</h5>
+<p>I went back to work full time as a caregiver when he turned 1.</p>
+<p>How are you feeling?</p>
+<p>Good, thank you.</p>
+<h5>[001-3]</h5>
+<p>Luckily, the place I work has a day-care center, so he's taken care of there.</p>
+<p>Have a good day!</p>
+<p>Bye-bye!</p>
+<p>Thank you.</p>
