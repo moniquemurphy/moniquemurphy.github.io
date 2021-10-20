@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: exile"
+permalink: /translations/japanese-lyrics/exile
+---
+<h1>EXILE</h1>
+<ul>
+    {% for song in site.data.artists.exile %}
+    <li><a href="/translations/japanese-lyrics/exile/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

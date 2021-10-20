@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kishida kyoudan"
+permalink: /translations/japanese-lyrics/kishida-kyoudan
+---
+<h1>Kishida Kyoudan</h1>
+<ul>
+    {% for song in site.data.artists.kishida_kyoudan %}
+    <li><a href="/translations/japanese-lyrics/kishida-kyoudan/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

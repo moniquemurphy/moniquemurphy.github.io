@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kokuburo"
+permalink: /translations/japanese-lyrics/kokuburo
+---
+<h1>Kobukuro</h1>
+<ul>
+    {% for song in site.data.artists.kokuburo %}
+    <li><a href="/translations/japanese-lyrics/kokuburo/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

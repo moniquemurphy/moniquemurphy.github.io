@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: angela aki"
+permalink: /translations/japanese-lyrics/angela-aki
+---
+<h1>Angela Aki</h1>
+<ul>
+    {% for song in site.data.artists.angela_aki %}
+    <li><a href="/translations/japanese-lyrics/angela-aki/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: tee"
+permalink: /translations/japanese-lyrics/tee
+---
+<h1>TEE</h1>
+<ul>
+	{% for song in site.data.artists.tee %}
+	<li><a href="/translations/japanese-lyrics/tee/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

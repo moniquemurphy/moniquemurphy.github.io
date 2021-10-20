@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: amuro namie"
+permalink: /translations/japanese-lyrics/amuro-namie
+---
+<h1>Amuro Namie</h1>
+<ul>
+    {% for song in site.data.artists.amuro_namie %}
+    <li><a href="/translations/japanese-lyrics/amuro-namie/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

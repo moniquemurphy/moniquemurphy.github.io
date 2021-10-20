@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kondou takashi"
+permalink: /translations/japanese-lyrics/kondou-takashi
+---
+<h1>Kondou Takashi</h1>
+<ul>
+    {% for song in site.data.artists.kondou_takashi %}
+    <li><a href="/translations/japanese-lyrics/kokuburo/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

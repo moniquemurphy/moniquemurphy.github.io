@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: akb48"
+permalink: /translations/japanese-lyrics/akb48
+---
+<h1>AKB48</h1>
+<ul>
+    {% for song in site.data.artists.akb48 %}
+    <li><a href="/translations/japanese-lyrics/akb48/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

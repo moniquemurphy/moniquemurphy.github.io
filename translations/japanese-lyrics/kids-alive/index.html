@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kids alive"
+permalink: /translations/japanese-lyrics/kids-alive
+---
+<h1>Kids Alive</h1>
+<ul>
+    {% for song in site.data.artists.kids_alive %}
+    <li><a href="/translations/japanese-lyrics/kids-alive/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

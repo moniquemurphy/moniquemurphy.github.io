@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "momomori-eki.net :: aikawa nanase"
+permalink: /translations/japanese-lyrics/aikawa-nanase
+---
+<h1>Aikawa Nanase</h1>
+<ul>
+    {% for song in site.data.artists.aikawa_nanase %}
+    <li><a href="/translations/japanese-lyrics/aikawa-nanase/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

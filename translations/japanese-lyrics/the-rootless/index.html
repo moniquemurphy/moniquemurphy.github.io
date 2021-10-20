@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: the rootless"
+permalink: /translations/japanese-lyrics/the-rootless
+---
+<h1>The ROOTLESS</h1>
+<ul>
+	{% for song in site.data.artists.the_rootless %}
+	<li><a href="/translations/japanese-lyrics/the-rootless/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

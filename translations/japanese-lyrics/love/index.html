@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: love"
+permalink: /translations/japanese-lyrics/love
+---
+<h1>Love</h1>
+<ul>
+	{% for song in site.data.artists.love %}
+	<li><a href="/translations/japanese-lyrics/love/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

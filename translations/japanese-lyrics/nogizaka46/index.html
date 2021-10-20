@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: nogizaka46"
+permalink: /translations/japanese-lyrics/nogizaka46
+---
+<h1>Nogizaka46</h1>
+<ul>
+	{% for song in site.data.artists.nogizaka46 %}
+	<li><a href="/translations/japanese-lyrics/nogizaka46/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

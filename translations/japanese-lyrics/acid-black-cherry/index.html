@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: acid black cherry"
+permalink: /translations/japanese-lyrics/acid-black-cherry
+---
+<h1>Acid Black Cherry</h1>
+<ul>
+    {% for song in site.data.artists.acid_black_cherry %}
+    <li><a href="/translations/japanese-lyrics/acid-black-cherry/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

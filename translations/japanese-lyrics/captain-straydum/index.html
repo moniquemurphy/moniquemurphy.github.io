@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: captain straydum"
+permalink: /translations/japanese-lyrics/captain-straydum
+---
+<h1>Captain Straydum</h1>
+<ul>
+    {% for song in site.data.artists.captain_straydum %}
+    <li><a href="/translations/japanese-lyrics/captain-straydum/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

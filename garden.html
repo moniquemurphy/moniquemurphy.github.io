@@ -1,0 +1,14 @@
+---
+layout: default
+title: "momomori-eki.net :: garden"
+permalink: garden/
+---
+<h1>Garden</h1>
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <h3><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date_to_string }}</a></h2>
+    </li>
+    {% endfor %}
+</ul>

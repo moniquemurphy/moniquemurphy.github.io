@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: dohzi-t"
+permalink: /translations/japanese-lyrics/dohzi-t
+---
+<h1>Dohzi-T</h1>
+<ul>
+    {% for song in site.data.artists.dohzi-t %}
+    <li><a href="/translations/japanese-lyrics/dohzi-t/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

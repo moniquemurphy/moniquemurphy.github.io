@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: fukuhara miho"
+permalink: /translations/japanese-lyrics/fukuhara-miho
+---
+<h1>Fukuhara Miho</h1>
+<ul>
+    {% for song in site.data.artists.fukuhara_miho %}
+    <li><a href="/translations/japanese-lyrics/fukuhara-miho/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

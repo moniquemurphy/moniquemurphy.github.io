@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: yanagi nagi"
+permalink: /translations/japanese-lyrics/yanagi-nagi
+---
+<h1>Yanagi Nagi</h1>
+<ul>
+	{% for song in site.data.artists.yanagi_nagi %}
+	<li><a href="/translations/japanese-lyrics/yanagi-nagi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

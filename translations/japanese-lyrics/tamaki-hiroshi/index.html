@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: tamaki hiroshi"
+permalink: /translations/japanese-lyrics/tamaki-hiroshi
+---
+<h1>Tamaki Hiroshi</h1>
+<ul>
+	{% for song in site.data.artists.tamaki_hiroshi %}
+	<li><a href="/translations/japanese-lyrics/tamaki-hiroshi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

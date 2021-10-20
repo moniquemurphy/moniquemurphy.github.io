@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: touhoushinki"
+permalink: /translations/japanese-lyrics/touhoushinki
+---
+<h1>Touhoushinki</h1>
+<ul>
+    {% for song in site.data.artists.touhoushinki %}
+    <li><a href="/translations/japanese-lyrics/touhoushinki/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

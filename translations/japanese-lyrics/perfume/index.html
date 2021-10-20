@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: perfume"
+permalink: /translations/japanese-lyrics/perfume
+---
+<h1>Perfume</h1>
+<ul>
+    {% for song in site.data.artists.perfume %}
+    <li><a href="/translations/japanese-lyrics/perfume/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

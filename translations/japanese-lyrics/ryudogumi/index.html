@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: ryudogumi"
+permalink: /translations/japanese-lyrics/ryudogumi
+---
+<h1>Ryudogumi</h1>
+<ul>
+	{% for song in site.data.artists.ryudogumi %}
+	<li><a href="/translations/japanese-lyrics/ryudogumi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

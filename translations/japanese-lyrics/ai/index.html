@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: AI"
+permalink: /translations/japanese-lyrics/ai
+---
+<h1>AI</h1>
+<ul>
+    {% for song in site.data.artists.ai %}
+    <li><a href="/translations/japanese-lyrics/ai/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

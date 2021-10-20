@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: hitomi"
+permalink: /translations/japanese-lyrics/hitomi
+---
+<h1>hitomi</h1>
+<ul>
+    {% for song in site.data.artists.hitomi %}
+    <li><a href="/translations/japanese-lyrics/hitomi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

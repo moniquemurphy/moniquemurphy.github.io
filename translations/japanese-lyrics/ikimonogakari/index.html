@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: ikimonogakari"
+permalink: /translations/japanese-lyrics/ikimonogakari
+---
+<h1>Ikimonogakari</h1>
+<ul>
+    {% for song in site.data.artists.ikimonogakari %}
+    <li><a href="/translations/japanese-lyrics/ikimonogakari/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

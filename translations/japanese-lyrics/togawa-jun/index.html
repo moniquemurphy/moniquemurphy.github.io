@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: togawa jun"
+permalink: /translations/japanese-lyrics/togawa-jun
+---
+<h1>Togawa Jun</h1>
+<ul>
+	{% for song in site.data.artists.togawa_jun %}
+	<li><a href="/translations/japanese-lyrics/togawa-jun/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

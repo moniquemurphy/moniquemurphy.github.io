@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: hirano aya"
+permalink: /translations/japanese-lyrics/hirano-aya
+---
+<h1>Hirano Aya</h1>
+<ul>
+    {% for song in site.data.artists.hirano_aya %}
+    <li><a href="/translations/japanese-lyrics/hirano-aya/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

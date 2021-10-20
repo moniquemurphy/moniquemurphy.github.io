@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: cocco"
+permalink: /translations/japanese-lyrics/cocco
+---
+<h1>Cocco</h1>
+<ul>
+    {% for song in site.data.artists.cocco %}
+    <li><a href="/translations/japanese-lyrics/cocco/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

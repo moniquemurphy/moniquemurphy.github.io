@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: matsuura aya"
+permalink: /translations/japanese-lyrics/matsuura-aya
+---
+<h1>Matsuura Aya</h1>
+<ul>
+	{% for song in site.data.artists.matsuura_aya %}
+	<li><a href="/translations/japanese-lyrics/matsuura-aya/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

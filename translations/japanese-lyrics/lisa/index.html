@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: lisa"
+permalink: /translations/japanese-lyrics/lisa
+---
+<h1>LISA</h1>
+<ul>
+	{% for song in site.data.artists.lisa %}
+	<li><a href="/translations/japanese-lyrics/lisa/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

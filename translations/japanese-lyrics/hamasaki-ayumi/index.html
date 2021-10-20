@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: hamasaki ayumi"
+permalink: /translations/japanese-lyrics/hamasaki-ayumi
+---
+<h1>Hamasaki Ayumi</h1>
+<ul>
+    {% for song in site.data.artists.hamasaki_ayumi %}
+    <li><a href="/translations/japanese-lyrics/hamasaki-ayumi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

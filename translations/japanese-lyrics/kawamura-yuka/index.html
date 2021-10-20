@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kawamura yuka"
+permalink: /translations/japanese-lyrics/kawamura-yuka
+---
+<h1>Kawamura Yuka</h1>
+<ul>
+    {% for song in site.data.artists.kawamura_yuka %}
+    <li><a href="/translations/japanese-lyrics/kawamura-yuka/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: nakashima mika"
+permalink: /translations/japanese-lyrics/nakashima-mika
+---
+<h1>Nakashima Mika</h1>
+<ul>
+	{% for song in site.data.artists.nakashima_mika %}
+	<li><a href="/translations/japanese-lyrics/nakashima-mika/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

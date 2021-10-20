@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: gotou-maki"
+permalink: /translations/japanese-lyrics/gotou-maki
+---
+<h1>Gotou Maki</h1>
+<ul>
+    {% for song in site.data.artists.gotou_maki %}
+    <li><a href="/translations/japanese-lyrics/gotou-maki/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

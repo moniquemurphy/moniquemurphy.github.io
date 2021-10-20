@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: ragdoll"
+permalink: /translations/japanese-lyrics/ragdoll
+---
+<h1>Ragdoll</h1>
+<ul>
+	{% for song in site.data.artists.ragdoll %}
+	<li><a href="/translations/japanese-lyrics/ragdoll/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

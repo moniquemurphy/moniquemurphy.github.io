@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: hayashibara megumi"
+permalink: /translations/japanese-lyrics/hayashibara-megumi
+---
+<h1>Hayashibara Megumi</h1>
+<ul>
+    {% for song in site.data.artists.hayashibara_megumi %}
+    <li><a href="/translations/japanese-lyrics/hayashibara-megumi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kiroro"
+permalink: /translations/japanese-lyrics/kiroro
+---
+<h1>Kiroro</h1>
+<ul>
+    {% for song in site.data.artists.kiroro %}
+    <li><a href="/translations/japanese-lyrics/kiroro/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

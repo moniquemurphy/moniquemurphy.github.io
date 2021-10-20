@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kasai tomomi"
+permalink: /translations/japanese-lyrics/kasai-tomomi
+---
+<h1>Kasai Tomomi</h1>
+<ul>
+    {% for song in site.data.artists.kasai_tomomi %}
+    <li><a href="/translations/japanese-lyrics/kasai-tomomi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

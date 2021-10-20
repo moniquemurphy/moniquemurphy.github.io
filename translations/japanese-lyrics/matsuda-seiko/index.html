@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: matsuda seiko"
+permalink: /translations/japanese-lyrics/matsuda-seiko
+---
+<h1>Matsuda Seiko</h1>
+<ul>
+	{% for song in site.data.artists.matsuda_seiko %}
+	<li><a href="/translations/japanese-lyrics/matsuda-seiko/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

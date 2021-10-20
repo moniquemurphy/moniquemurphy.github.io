@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kouda kumi"
+permalink: /translations/japanese-lyrics/kouda-kumi
+---
+<h1>Kouda Kumi</h1>
+<ul>
+    {% for song in site.data.artists.kouda_kumi %}
+    <li><a href="/translations/japanese-lyrics/kouda-kumi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

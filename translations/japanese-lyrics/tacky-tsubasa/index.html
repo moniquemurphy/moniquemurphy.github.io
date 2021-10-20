@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: tacky & tsubasa"
+permalink: /translations/japanese-lyrics/tacky-tsubasa
+---
+<h1>Tacky & Tsubasa</h1>
+<ul>
+    {% for song in site.data.artists.tacky_tsubasa %}
+    <li><a href="/translations/japanese-lyrics/tacky-tsubasa/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kokia"
+permalink: /translations/japanese-lyrics/kokia
+---
+<h1>KOKIA</h1>
+<ul>
+    {% for song in site.data.artists.kokia %}
+    <li><a href="/translations/japanese-lyrics/kokia/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

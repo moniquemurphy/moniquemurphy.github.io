@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: dreams come true"
+permalink: /translations/japanese-lyrics/dreams-come-true
+---
+<h1>DREAMS COME TRUE</h1>
+<ul>
+    {% for song in site.data.artists.dreams_come_true %}
+    <li><a href="/translations/japanese-lyrics/dreams-come-true/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

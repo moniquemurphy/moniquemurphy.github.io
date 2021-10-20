@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "momomori-eki.net :: japanese lyrics"
+permalink: /translations/japanese-lyrics
+---
+<h1>japanese lyrics by artist</h1>
+<ul>
+    {% for artist in site.data.artists.list %}
+    <li><a href="/translations/japanese-lyrics/{{ artist.name_romaji || slugify:pretty }}">{{ artist.name_romaji }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/">back to translations</a>

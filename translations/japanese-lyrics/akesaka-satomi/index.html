@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: akesaka satomi"
+permalink: /translations/japanese-lyrics/akesaka-satomi
+---
+<h1>Akesaka Satomi</h1>
+<ul>
+    {% for song in site.data.artists.ai %}
+    <li><a href="/translations/japanese-lyrics/akesaka-satomi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

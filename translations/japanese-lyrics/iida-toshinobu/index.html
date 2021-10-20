@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: iida toshinobu"
+permalink: /translations/japanese-lyrics/iida-toshinobu
+---
+<h1>Iida Toshinobu</h1>
+<ul>
+    {% for song in site.data.artists.iida_toshinobu %}
+    <li><a href="/translations/japanese-lyrics/iida-toshinobu/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

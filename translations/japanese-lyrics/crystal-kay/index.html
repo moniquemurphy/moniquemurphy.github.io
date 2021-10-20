@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: crystal kay"
+permalink: /translations/japanese-lyrics/crystal-kay
+---
+<h1>Crystal Kay</h1>
+<ul>
+    {% for song in site.data.artists.crystal-kay %}
+    <li><a href="/translations/japanese-lyrics/crystal-kay/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

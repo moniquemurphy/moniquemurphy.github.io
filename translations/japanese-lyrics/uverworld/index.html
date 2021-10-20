@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: uverworld"
+permalink: /translations/japanese-lyrics/uverworld
+---
+<h1>UVERworld</h1>
+<ul>
+    {% for song in site.data.artists.uverworld %}
+    <li><a href="/translations/japanese-lyrics/uverworld/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

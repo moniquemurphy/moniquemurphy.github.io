@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: maika"
+permalink: /translations/japanese-lyrics/maika
+---
+<h1>Maika</h1>
+<ul>
+	{% for song in site.data.artists.maika %}
+	<li><a href="/translations/japanese-lyrics/maika/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

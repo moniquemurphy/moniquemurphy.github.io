@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: nishino kana"
+permalink: /translations/japanese-lyrics/nishino-kana
+---
+<h1>Nishino Kana</h1>
+<ul>
+	{% for song in site.data.artists.nishino_kana %}
+	<li><a href="/translations/japanese-lyrics/nishino-kana/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: hoshino gen"
+permalink: /translations/japanese-lyrics/hoshino-gen
+---
+<h1>Hoshino Gen</h1>
+<ul>
+    {% for song in site.data.artists.hoshino_gen %}
+    <li><a href="/translations/japanese-lyrics/hoshino-gen/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

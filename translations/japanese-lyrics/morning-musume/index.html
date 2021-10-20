@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: morning musume"
+permalink: /translations/japanese-lyrics/morning-musume
+---
+<h1>Morning Musume</h1>
+<ul>
+	{% for song in site.data.artists.morning_musume %}
+	<li><a href="/translations/japanese-lyrics/morning-musume/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: m-flo"
+permalink: /translations/japanese-lyrics/m-flo
+---
+<h1>m-flo</h1>
+<ul>
+	{% for song in site.data.artists.m-flo %}
+	<li><a href="/translations/japanese-lyrics/m-flo/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

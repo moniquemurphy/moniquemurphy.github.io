@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: berryz koubou"
+permalink: /translations/japanese-lyrics/berryz-koubou
+---
+<h1>Berryz Koubou</h1>
+<ul>
+    {% for song in site.data.artists.berryz_koubou %}
+    <li><a href="/translations/japanese-lyrics/berryz-koubou/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

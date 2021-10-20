@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: dew"
+permalink: /translations/japanese-lyrics/dew
+---
+<h1>Dew</h1>
+<ul>
+    {% for song in site.data.artists.dew %}
+    <li><a href="/translations/japanese-lyrics/dew/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

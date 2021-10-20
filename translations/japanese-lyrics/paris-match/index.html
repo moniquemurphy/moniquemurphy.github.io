@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: paris match"
+permalink: /translations/japanese-lyrics/paris-match
+---
+<h1>Paris Match</h1>
+<ul>
+	{% for song in site.data.artists.paris_match %}
+	<li><a href="/translations/japanese-lyrics/paris-match/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: oikawa mitsuhiro"
+permalink: /translations/japanese-lyrics/oikawa-mitsuhiro
+---
+<h1>Oikawa Mitsuhiro</h1>
+<ul>
+	{% for song in site.data.artists.oikawa_mitsuhiro %}
+	<li><a href="/translations/japanese-lyrics/oikawa-mitsuhiro/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

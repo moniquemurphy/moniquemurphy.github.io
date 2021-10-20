@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: l'arc en ciel"
+permalink: /translations/japanese-lyrics/l-arc-en-ciel
+---
+<h1>L'Arc en Ciel</h1>
+<ul>
+    {% for song in site.data.artists.larc_en_ciel %}
+    <li><a href="/translations/japanese-lyrics/l-arc-en-ciel/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

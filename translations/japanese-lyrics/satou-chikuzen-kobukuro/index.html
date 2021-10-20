@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: satou chikuzen & kobukuro"
+permalink: /translations/japanese-lyrics/satou-chikuzen-kobukuro
+---
+<h1>Satou Chikuzen & Kobukuro</h1>
+<ul>
+    {% for song in site.data.artists.satou_chikuzen_kobukuro %}
+    <li><a href="/translations/japanese-lyrics/satou-chikuzen-kobukuro/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

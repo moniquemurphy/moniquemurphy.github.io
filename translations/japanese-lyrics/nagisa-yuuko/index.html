@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: nagisa yuuko"
+permalink: /translations/japanese-lyrics/nagisa-yuuko
+---
+<h1>Nagisa Yuuko</h1>
+<ul>
+	{% for song in site.data.artists.nagisa_yuuko %}
+	<li><a href="/translations/japanese-lyrics/nagisa-yuuko/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>

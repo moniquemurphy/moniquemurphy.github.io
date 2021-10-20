@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: every little thing"
+permalink: /translations/japanese-lyrics/every-little-thing
+---
+<h1>Every Little Thing</h1>
+<ul>
+    {% for song in site.data.artists.every_little_thing %}
+    <li><a href="/translations/japanese-lyrics/every-little-thing/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: itou kanako"
+permalink: /translations/japanese-lyrics/itou-kanako
+---
+<h1>Itou Kanako</h1>
+<ul>
+    {% for song in site.data.artists.itou_kanako %}
+    <li><a href="/translations/japanese-lyrics/itou-kanako/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

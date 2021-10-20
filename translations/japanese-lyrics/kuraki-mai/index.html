@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kuraki mai"
+permalink: /translations/japanese-lyrics/kuraki-mai
+---
+<h1>Kuraki Mai</h1>
+<ul>
+    {% for song in site.data.artists.kuraki_mai %}
+    <li><a href="/translations/japanese-lyrics/kuraki-mai/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

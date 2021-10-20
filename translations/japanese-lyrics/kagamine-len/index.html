@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: kagamine len"
+permalink: /translations/japanese-lyrics/kagamine-len
+---
+<h1>Kagamine Len</h1>
+<ul>
+    {% for song in site.data.artists.kagamine_len %}
+    <li><a href="/translations/japanese-lyrics/kagamine-len/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

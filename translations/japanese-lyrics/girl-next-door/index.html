@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: girl next door"
+permalink: /translations/japanese-lyrics/girl-next-door
+---
+<h1>GIRL NEXT DOOR</h1>
+<ul>
+    {% for song in site.data.artists.girl_next_door %}
+    <li><a href="/translations/japanese-lyrics/girl-next-door/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

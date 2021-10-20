@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: boa"
+permalink: /translations/japanese-lyrics/boa
+---
+<h1>BoA</h1>
+<ul>
+    {% for song in site.data.artists.boa %}
+    <li><a href="/translations/japanese-lyrics/boa/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>

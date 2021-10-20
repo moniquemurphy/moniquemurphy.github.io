@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: v6"
+permalink: /translations/japanese-lyrics/v6
+---
+<h1>V6</h1>
+<ul>
+	{% for song in site.data.artists.v6 %}
+	<li><a href="/translations/japanese-lyrics/v6/{{ song || slugify:pretty }}">{{ song }}</a></li>
+	{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
