@@ -26,6 +26,10 @@ text-decoration: none;
   font-style: italic;
 }
 
+.japanese {
+  font-family: 'Noto Sans JP'
+}
+
 .high-frequency {
     background-color: #d8ffee;
 }
@@ -135,8 +139,7 @@ table th, table td { padding: 0.5rem 1rem; border: 1px solid #e9ebec; }
     padding: 0.6em;
     display: inline-block;
     margin: 0 auto;
-    font-family: 'Noto Sans Japanese';
-    font-size: 1.1em;
+    font-family: 'Noto Sans JP';
 }
 
 .romaji_lyrics_column {
