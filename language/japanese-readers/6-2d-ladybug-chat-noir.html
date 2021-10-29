@@ -1,0 +1,86 @@
+---
+layout: page
+title: Japanese Readers Series 6 - Ladybug Manga
+permalink: /language/japanese-readers/6/2d-ladybug-chat-noir
+tags: japanesereaders shorties
+date: 2021-10-29
+---
+<h2>Intro</h2>
+<p>For background/how to use this series, see the <a href="/language/japanese-readers/1/yuurei-no-sodekake">first post</a>.</p>
+<p>I'm really into Miraculous Ladybug lately. Of course, I had to see what Japanese artists were doing with the material, and I was not disappointed.</p>
+<h2>Text Link</h2>
+<p>{% twitter https://twitter.com/nmdayone151/status/1418805155961610242?s=20 %}</p>
+
+<h2>Vocab List</h2>
+<table>
+    <caption class="hidden">
+    Vocab List
+    </caption>
+    <thead>
+      <tr>
+        <th scope="col">
+          Kanji
+        </th>
+        <th scope="col">
+          Reading
+        </th>
+        <th scope="col">
+          English Gloss
+        </th>
+        <th scope="col">
+          Frequency Rank (Low Number = High Frequency)
+        </th>
+        </thead>
+        <tbody>
+        {% for item in site.data.jreaders.jreader6 %}
+        {% if item.rank < 1000 %}
+        <tr class="high-frequency">
+        {% elsif 1001 <= item.rank <= 5000 %}
+        <tr class="mid-frequency">
+        {% elsif 5001 < item.rank < 10000 %}
+        <tr class="low-frequency">
+        {% elsif 0 < item.rank < 1 %}
+        <tr class="very-low-frequency">
+        {% else %}
+        <tr class="not-applicable">
+        {% endif %}
+          <td>
+            {{ item.kanji }}
+          </td>
+          <td>
+            {{ item.reading }}
+          </td>
+          <td>
+            {{ item.english }}
+          </td>
+          <td>
+            {{ item.rank }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+  </table>
+
+ <h2>Grammar List</h2>
+ <ul>
+    <li><a href="https://www.tanoshiijapanese.com/dictionary/entry_details.cfm?entry_id=108791">〜ずき</a></li>
+    <li><a href="http://www.guidetojapanese.org/learn/complete/progressive_tense">てform</a></li>
+</ul>
+
+<h2>Translation</h2>
+<p>[001]<br>
+Chat Noir: Tell me,<br>
+Chat Noir: what's your<br>
+Chat Noir: type?<br></p>
+<p>[002]<br>
+Ladybug: Someone who's quiet,<br>
+Ladybug: likes to read,<br>
+Ladybug: calm,<br>
+Ladybug: cool, and collected.</p>
+<p>[003]<br>
+Chat Noir: . . .</p>
+<p>[004]<br>
+Chat Noir: Me?<br>
+Caption: A. Correct</p>
+
+<a href="/language/">back to language</a>
