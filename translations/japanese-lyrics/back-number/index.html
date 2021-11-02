@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: back number"
+permalink: /translations/japanese-lyrics/back-number
+---
+<h1>back number</h1>
+<ul>
+    {% for song in site.data.artists.back_number %}
+    <li><a href="/translations/japanese-lyrics/back-number/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>
