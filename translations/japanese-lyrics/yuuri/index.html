@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: yuuri"
+permalink: /translations/japanese-lyrics/yuuri
+---
+<h1>Yuzu</h1>
+<ul>
+    {% for song in site.data.artists.yuuri %}
+    <li><a href="/translations/japanese-lyrics/yuuri/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
