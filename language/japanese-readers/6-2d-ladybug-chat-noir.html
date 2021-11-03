@@ -33,14 +33,14 @@ date: 2021-10-29
         </thead>
         <tbody>
         {% for item in site.data.jreaders.jreader6 %}
-        {% if item.rank < 1000 %}
-        <tr class="high-frequency">
-        {% elsif 1001 <= item.rank <= 5000 %}
-        <tr class="mid-frequency">
-        {% elsif 5001 < item.rank < 10000 %}
-        <tr class="low-frequency">
-        {% elsif 0 < item.rank < 1 %}
-        <tr class="very-low-frequency">
+        {% if item.rank <= 1000 %}
+          <tr class="high-frequency">
+        {% elsif item.rank >= 1001 and item.rank <= 5000 %}
+          <tr class="mid-frequency">
+        {% elsif item.rank >= 5001 and item.rank <= 10000 %}
+          <tr class="low-frequency">
+        {% elsif item.rank > 10000 %}
+          <tr class="very-low-frequency">
         {% else %}
         <tr class="not-applicable">
         {% endif %}
