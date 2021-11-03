@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: eito"
+permalink: /translations/japanese-lyrics/eito
+---
+<h1>Eito</h1>
+<ul>
+    {% for song in site.data.artists.eito %}
+    <li><a href="/translations/japanese-lyrics/eito/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>
