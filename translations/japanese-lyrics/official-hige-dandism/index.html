@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: official hige dandism"
+permalink: /translations/japanese-lyrics/official-hige-dandism
+---
+<h1>Official Hige Dandism</h1>
+<ul>
+    {% for song in site.data.artists.official_hige_dandism %}
+    <li><a href="/translations/japanese-lyrics/official-hige-dandism/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
