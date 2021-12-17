@@ -623,9 +623,6 @@
 <loc>http://localhost:4000/translations/interviews/ikegaya-yuuji-1</loc>
 </url>
 <url>
-<loc>http://localhost:4000/translations/interviews/ikegaya-one/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/translations/japanese-lyrics/perfume/imitation-world</loc>
 </url>
 <url>
@@ -864,6 +861,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/translations/japanese-lyrics/yui</loc>
+</url>
+<url>
+<loc>http://localhost:4000/translations/interviews/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/translations/japanese-lyrics/tamaki-hiroshi</loc>
