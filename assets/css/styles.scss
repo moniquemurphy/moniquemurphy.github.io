@@ -81,6 +81,28 @@ height: auto;
 display: block;
 }
 
+.conv {
+  width: 100%;
+  }
+  .conv p {
+    margin: 1em auto; }
+    .conv p > b {
+      display: block; }
+      .conv p > b > img {
+        vertical-align: bottom; }
+    .conv p > span {
+      padding-top: 0.3em; }
+      @media screen and (min-width: 768px) {
+          .conv p {
+            display: flex; }
+            .conv p > b {
+              width: 105px; }
+            .conv p > span {
+              width: calc(100% - 105px);
+              padding-left: 10px;
+              padding-top: 0;
+              display: flex; } }
+
 /* Tables ========================================================================== */
 table { border-collapse: collapse; display: block; width: 100%; overflow: auto; word-break: normal; word-break: keep-all; -webkit-overflow-scrolling: touch; }
 table th { font-weight: bold; }
@@ -88,241 +110,241 @@ table th, table td { padding: 0.5rem 1rem; border: 1px solid #e9ebec; }
 
 /* Desktop/Laptop Full Resolution */
 @media screen and (min-width: 1500px) {
-.big-triptych-container {
-  width: 85%;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 0.5em;
-}
-
-.big-triptych-panel {
-  width: 33%;
-  height: 100%;
-  display: inline-block;
-}
-
-.big-triptych-panel-center {
-  width: 450px;
-  height: 100%;
-  display: inline-block;
-}
-
-.little-triptych-panel {
-  width:30%;
-  height: 100%;
-  margin: auto;
-  display: inline-block;
-  min-height: 1px;
-}
-
-.main-content {
-  width: 80%;
-  padding: 2em;
-  margin: 0 auto;
-  background-color: #ffffff;
-}
-
-.song_title {
-  text-align: center;
-  font-size: 3em;
-  margin: 0 auto;
-}
-
-.artist_name {
-  text-align: center;
-  font-size: 3em;
-  margin: 0 auto;
-}
-
-.japanese_lyrics_column {
-    min-width: 30%;
-    padding: 0.6em;
-    display: inline-block;
+  .big-triptych-container {
+    width: 85%;
     margin: 0 auto;
-    font-family: 'Noto Sans JP';
-}
-
-.romaji_lyrics_column {
-    min-width: 35%;
-    padding: 0.6em;
-    display: inline-block;
-    margin: 0 auto;
-}
-
-.english_lyrics_column {
-    min-width: 30%;
-    padding: 0.6em;
-    display: inline-block;
-    margin: 0 auto;
-}
-
-.lyrics_title {
     text-align: center;
-    font-size: 1.5em;
-}
+    padding-top: 0.5em;
+  }
 
-.lyrics_container {
-    width: 100%;
+  .big-triptych-panel {
+    width: 33%;
     height: 100%;
-    padding: 0.5em;
-    display: flex;
-}
+    display: inline-block;
+  }
 
-.verse_block {
-    flex: 1;
-    padding-top: 1em;
-    width: 100%;
+  .big-triptych-panel-center {
+    width: 450px;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .little-triptych-panel {
+    width:30%;
+    height: 100%;
+    margin: auto;
+    display: inline-block;
+    min-height: 1px;
+  }
+
+  .main-content {
+    width: 80%;
+    padding: 2em;
     margin: 0 auto;
-}
+    background-color: #ffffff;
+  }
+
+  .song_title {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+  }
+
+  .artist_name {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+  }
+
+  .japanese_lyrics_column {
+      min-width: 30%;
+      padding: 0.6em;
+      display: inline-block;
+      margin: 0 auto;
+      font-family: 'Noto Sans JP';
+  }
+
+  .romaji_lyrics_column {
+      min-width: 35%;
+      padding: 0.6em;
+      display: inline-block;
+      margin: 0 auto;
+  }
+
+  .english_lyrics_column {
+      min-width: 30%;
+      padding: 0.6em;
+      display: inline-block;
+      margin: 0 auto;
+  }
+
+  .lyrics_title {
+      text-align: center;
+      font-size: 1.5em;
+  }
+
+  .lyrics_container {
+      width: 100%;
+      height: 100%;
+      padding: 0.5em;
+      display: flex;
+  }
+
+  .verse_block {
+      flex: 1;
+      padding-top: 1em;
+      width: 100%;
+      margin: 0 auto;
+  }
 }
 
 /* Tablet/Medium Resolution */
 @media screen and (min-width: 780px) and (max-width: 2000px) {
-.big-triptych-container {
-  width: 85%;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 0.5em;
-}
-
-.big-triptych-panel {
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-}
-
-.big-triptych-panel-center {
-  width: 450px;
-  height: 100%;
-  display: inline-block;
-}
-
-.little-triptych-panel {
-  width: 30%;
-  height: 100%;
-  margin: auto;
-  display: inline-block;
-  min-height: 1px;
-}
-
-.main-content {
-  width: 80%;
-  padding: 2em;
-  margin: 0 auto;
-  background-color: #ffffff;
-}
-
-.song_title {
-  text-align: center;
-  font-size: 3em;
-  margin: 0 auto;
-}
-
-.artist_name {
-  text-align: center;
-  font-size: 3em;
-  margin: 0 auto;
-}
-
-.lyrics_column {
-    flex: 1;
-    width: 30%;
-    padding: 0.5em;
-    display: inline-block;
+  .big-triptych-container {
+    width: 85%;
     margin: 0 auto;
-}
-
-.lyrics_title {
     text-align: center;
-    font-size: 1.5em;
-}
+    padding-top: 0.5em;
+  }
 
-.lyrics_container {
+  .big-triptych-panel {
     width: 100%;
     height: 100%;
-    padding: 0.5em;
-    display: flex;
-}
+    display: inline-block;
+  }
 
-.verse_block {
-    padding-top: 1em;
-    width: 100%;
+  .big-triptych-panel-center {
+    width: 450px;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .little-triptych-panel {
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    display: inline-block;
+    min-height: 1px;
+  }
+
+  .main-content {
+    width: 80%;
+    padding: 2em;
     margin: 0 auto;
-}
+    background-color: #ffffff;
+  }
+
+  .song_title {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+  }
+
+  .artist_name {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+  }
+
+  .lyrics_column {
+      flex: 1;
+      width: 30%;
+      padding: 0.5em;
+      display: inline-block;
+      margin: 0 auto;
+  }
+
+  .lyrics_title {
+      text-align: center;
+      font-size: 1.5em;
+  }
+
+  .lyrics_container {
+      width: 100%;
+      height: 100%;
+      padding: 0.5em;
+      display: flex;
+  }
+
+  .verse_block {
+      padding-top: 1em;
+      width: 100%;
+      margin: 0 auto;
+  }
 }
 
 /* Phone/Small Resolution */
 @media screen and (max-width: 779px) {
-.big-triptych-container {
-  width: 85%;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 0.5em;
-}
-
-.big-triptych-panel {
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  text-align: center;
-}
-
-.big-triptych-panel-center {
-  width: 320px;
-  height: 100%;
-  display: inline-block;
-}
-
-.little-triptych-panel {
-  width: 30%;
-  height: 100%;
-  margin: auto;
-  display: inline-block;
-  min-height: 1px;
-}
-
-.main-content {
-  width: 80%;
-  padding: 0.5em;
-  margin: 0 auto;
-  background-color: #ffffff;
-}
-
-.song_title {
-  text-align: center;
-  font-size: 1.5em;
-  margin: 0 auto;
-}
-
-.artist_name {
-  text-align: center;
-  font-size: 1.5em;
-  margin: 0 auto;
-}
-
-.lyrics_column {
-    flex: 1;
-    width: 100%;
-    padding: 0.5em;
-    display: inline-block;
+  .big-triptych-container {
+    width: 85%;
     margin: 0 auto;
-}
-
-.lyrics_title {
     text-align: center;
-    font-size: 1em;
-}
+    padding-top: 0.5em;
+  }
 
-.lyrics_container {
+  .big-triptych-panel {
     width: 100%;
     height: 100%;
-    padding: 0.25em;
-}
+    display: inline-block;
+    text-align: center;
+  }
 
-.verse_block {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    width: 100%;
+  .big-triptych-panel-center {
+    width: 320px;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .little-triptych-panel {
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    display: inline-block;
+    min-height: 1px;
+  }
+
+  .main-content {
+    width: 80%;
+    padding: 0.5em;
     margin: 0 auto;
-}
+    background-color: #ffffff;
+  }
+
+  .song_title {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 auto;
+  }
+
+  .artist_name {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 auto;
+  }
+
+  .lyrics_column {
+      flex: 1;
+      width: 100%;
+      padding: 0.5em;
+      display: inline-block;
+      margin: 0 auto;
+  }
+
+  .lyrics_title {
+      text-align: center;
+      font-size: 1em;
+  }
+
+  .lyrics_container {
+      width: 100%;
+      height: 100%;
+      padding: 0.25em;
+  }
+
+  .verse_block {
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      width: 100%;
+      margin: 0 auto;
+  }
 }
