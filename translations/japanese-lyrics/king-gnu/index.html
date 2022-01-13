@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: king gnu"
+permalink: /translations/japanese-lyrics/king-gnu
+---
+<h1>Kiroro</h1>
+<ul>
+    {% for song in site.data.artists.king_gnu %}
+    <li><a href="/translations/japanese-lyrics/king-gnu/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>
