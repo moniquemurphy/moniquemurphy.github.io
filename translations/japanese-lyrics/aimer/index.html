@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "momomori-eki.net :: aimer"
+permalink: /translations/japanese-lyrics/aimer
+---
+<h1>aiko</h1>
+<ul>
+{% for song in site.data.artists.aimer %}
+    <li><a href="/translations/japanese-lyrics/aimer/{{ song || slugify:pretty }}/">{{ song }}</a></li>
+{% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to all japanese lyrics</a>
