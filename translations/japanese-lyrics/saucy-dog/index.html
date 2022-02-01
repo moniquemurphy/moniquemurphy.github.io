@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: saucy dog"
+permalink: /translations/japanese-lyrics/saucy-dog
+---
+<h1>Saucy Dog</h1>
+<ul>
+    {% for song in site.data.artists.saucy_dog %}
+    <li><a href="/translations/japanese-lyrics/saucy-dog/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
