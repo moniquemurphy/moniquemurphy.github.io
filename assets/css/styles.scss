@@ -30,6 +30,54 @@ text-decoration: none;
   font-family: 'Noto Sans JP'
 }
 
+// manga translation styles
+
+#container {
+    display: block;
+    width: 800px;
+    overflow: hidden;
+}
+
+.panel {
+    display: block;
+    float: left;
+    padding-bottom: 0.5em;
+    text-decoration: underline;
+    width: 800px;
+}
+
+.page_number {
+    display: block;
+}
+
+.bubble {
+    display: block;
+    float: left;
+    width: 650px;
+	padding-top: 0.7em;
+}
+
+.char {
+    display: block;
+    float: left;
+    width: 100px;
+	font-weight: bold;
+	color: #ff7099;
+}
+
+.line {
+    display: block;
+    overflow: hidden;
+}
+
+.thought {
+    font-style: italic;
+}
+
+.emphasis {
+    font-style: italic;
+}
+
 .high-frequency {
     background-color: #d8ffee;
 }
