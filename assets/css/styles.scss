@@ -30,6 +30,10 @@ text-decoration: none;
   font-family: 'Noto Sans JP'
 }
 
+.french {
+  font-style: italic;
+}
+
 // manga translation styles
 
 #container {
@@ -54,15 +58,15 @@ text-decoration: none;
     display: block;
     float: left;
     width: 650px;
-	padding-top: 0.7em;
+    padding-top: 0.7em;
 }
 
 .char {
     display: block;
     float: left;
     width: 100px;
-	font-weight: bold;
-	color: #ff7099;
+    font-weight: bold;
+    color: #ff7099;
 }
 
 .line {
@@ -224,6 +228,20 @@ table th, table td { padding: 0.5rem 1rem; border: 1px solid #e9ebec; }
       padding: 0.6em;
       display: inline-block;
       margin: 0 auto;
+  }
+
+  .french_lyrics_column {
+    min-width: 48%;
+    padding: 0.6em;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .english_lyrics_column_2 {
+    min-width: 48%;
+    padding: 0.6em;
+    display: inline-block;
+    margin: 0 auto;
   }
 
   .lyrics_title {

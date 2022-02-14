@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "momomori-eki.net :: céline dion"
+permalink: /translations/french-lyrics/céline-dion
+---
+<h1>Céline Dion</h1>
+<ul>
+    {% for song in site.data.french_artists.celine_dion %}
+    <li><a href="/translations/french-lyrics/céline-dion/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/french-lyrics">back to french lyrics</a>

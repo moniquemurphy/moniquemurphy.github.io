@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "momomori-eki.net :: french lyrics"
+permalink: /translations/french-lyrics
+---
+<h1>french lyrics by artist</h1>
+<ul>
+    {% for artist in site.data.french_artists.list %}
+    <li><a href="/translations/french-lyrics/{{ artist || slugify:pretty }}">{{ artist }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/">back to translations</a>
