@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "momomori-eki.net :: coeur de pirate"
+permalink: /translations/french-lyrics/coeur-de-pirate
+---
+<h1>Coeur de Pirate</h1>
+<ul>
+    {% for song in site.data.french_artists.coeur_de_pirate %}
+    <li><a href="/translations/french-lyrics/coeur-de-pirate/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/french-lyrics">back to french lyrics</a>
