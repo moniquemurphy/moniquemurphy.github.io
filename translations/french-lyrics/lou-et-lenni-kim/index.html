@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "momomori-eki.net :: lou & lenni kim"
+permalink: /translations/french-lyrics/lou-et-lenni-kim
+---
+<h1>Lou & Lenni-Kim</h1>
+<ul>
+    {% for song in site.data.french_artists.lou_et_lenni_kim %}
+    <li><a href="/translations/french-lyrics/lou-et-lenni-kim/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/french-lyrics">back to french lyrics</a>
