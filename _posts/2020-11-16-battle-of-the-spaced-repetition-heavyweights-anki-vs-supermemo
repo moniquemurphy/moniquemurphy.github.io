@@ -1,0 +1,72 @@
+---
+layout: post
+title: "Battle of the Spaced Repetition Heavyweights: Anki vs. SuperMemo"
+date: 2020-11-16
+tags: anki languagelearning supermemo
+---
+<h1>Introduction</h1>
+
+<p>There is no lack of opinions on the internet about whether Anki or SuperMemo is better. As a long-time Anki user and SRS enthusiast, I’ve always been curious about SuperMemo’s algorithm and author Piotr Wozniak’s <a href="https://supermemo.guru/wiki/Universal_metric_for_cross-comparison_of_spaced_repetition_algorithms">claims of massively increased efficiency with the latest version vs. SM-2</a>, which is what Anki uses (even if I can make neither heads nor tails of the mathematical details).</p>
+
+<p>There’s a dearth of actual data from human subjects to back up these claims. If you search for “Supermemo vs. Anki” you’ll see a lot of forum posts by people wanting to know which is better, and a lot of replies that the original poster should just use what they like. The only thing close to an actual experiment is <a href="https://anki.tenderapp.com/discussions/effective-learning/1258-sm-2-vs-sm-15/page/1">this fascinating post</a> that I’ve read many times. I was curious if I would have similar results, and I wanted to include a control (plain flashcards not in an SRS system).</p>
+
+<p>I have fiddled with SM-15 from time to time, but like many others, quickly became frustrated with the UI and lack of core features I’ve come to expect in Anki (syncing/backup, multiple fields, easy formatting changes of cards themselves, browser function). But with a huge collection like I have (about 10 decks and 20,000+ cards total), I figured if SuperMemo could really reduce my study time per day by half without sacrificing retention, I could learn to deal with its foibles. I was also eager to try incremental reading to see if I liked it.</p>
+
+<h1>Methods</h1>
+
+<p>I made a list of 150 Japanese words collected in the course of reading novels and manga (I keep a notebook of words I don’t know as I read, which I transfer to a big spreadsheet and add flashcards when I feel like it) and split into three sets of 50 words each.</p>
+
+<p>Because I am at a fairly advanced level, I was reasonably confident that any words I don’t know at this point are probably similar low-ish frequency, so I did not make any extra effort to control for ease across the three lists. I did check a few in a <a href="https://nlb.ninjal.ac.jp/">Japanese corpus</a>, which confirmed what I thought.</p>
+
+<p>I put 50 cards in a separate Anki deck called “experiment,” 50 cards into SuperMemo 18 (which I bought in order to use the most up-to-date algorithm) in an “experiment” branch, and made a set of 50 cards in Quizlet as a control. I only did “forward” cards (that is, prompt with Japanese and answer in English). I did all 50 cards every day in Quizlet using the “Learn” feature for a few days, and then switched to “Write.” I did all 50 cards in Anki and SuperMemo on the first day, and then let the algorithm schedule after that point. I recorded my daily accuracy, time spent, and cards due for Anki/SuperMemo for 50 days. I scrambled the order I did each set to avoid any confound there. I sometimes missed days on the weekends. After 50 days, I did a posttest for comprehension.</p>
+
+<h1>Results</h1>
+
+<h2>Accuracy</h2>
+
+<center>
+<img src="/assets/img/ankivsupermemo_accuracy.png" alt="Graph of accuracy in Quizlet, Anki, and Supermemo over the course of the experiment">
+</center>
+
+<p>My accuracy in Quizlet maxed out at day 5 of reviewing and never dipped below 100% after that, as may be expected when reviewing the same small set of material every day. My Anki and SuperMemo daily accuracy were kind of all over the place, but I can confirm that there was no clear advantage in day-to-day remembering between the methods. Some days I got all the due cards right, and sometimes I did pretty terribly.</p>
+
+<h2>Time Spent</h2>
+
+<center>
+<img src="/assets/img/ankivsupermemo_timespent.png" alt="Graph of time spent in Quizlet, Anki, and Supermemo over the course of the experiment">
+</center>
+
+<p>Once I hit the accuracy ceiling for Quizlet, I hit a corresponding review time floor. No matter how fast I typed, there was no way I was getting through 50 cards in under about 4 minutes. I started to dread my Quizlet reviews every day and skipped a couple of days towards the end. With such a small set, I didn’t spend very much time reviewing in either Anki or SuperMemo.</p>
+
+<p>I spent a total of 145.47 minutes reviewing in Quizlet over 50 days, 25.99 minutes reviewing in Anki, and 26.40 minutes reviewing in SuperMemo.</p>
+
+<p>My average time spent reviewing in Quizlet was 4.85 minutes per day, 0.79 minutes per day in Anki, and 0.80 minutes per day in SuperMemo.</p>
+
+<h2>Cards Due</h2>
+
+<center>
+<img src="/assets/img/ankivsupermemo_cardsdue.png" alt="Graph of number of cards due in Anki and Supermemo over the course of the experiment">
+</center>
+
+<p>As expected, I did do more Anki reviews over time than SuperMemo, and usually had more Anki reviews per day. I did a total of 287 reviews in Anki over the course of the experiment, and 209 reviews in SuperMemo. The difference was particularly noticeable after a weekend gap of not studying (something other commenters across the internet have also noticed!).</p>
+
+<h2>Average Interval/Longest Interval</h2>
+<p>In Anki, my average interval was 1.2 months, and longest interval was 2.4 months. In SuperMemo, my average interval was 2.2 months and the longest interval was 11.3 months (!).</p>
+
+<h2>Posttest</h2>
+<p>I tested all 100 cards from Anki and SuperMemo for recall. I got 43/50 correct (86%) from the Anki set and 36/50 (72%) correct from the SuperMemo set.</p>
+
+<h1>Discussion</h1>
+<p>The thing that surprised me the most about my experiment was how close the average/total amount of time I spent on reviews was between Anki and SuperMemo. Even though I was doing more reviews in Anki usually, I was spending about the same amount of time in each program. I chalk this up to the shorter intervals in Anki. I was doing more cards, but I knew them better, so I was blitzing through them faster. SuperMemo does advertise that it tries to make recall effortful on purpose, because there are long-term retention benefits after a struggle. I did not necessarily find this to be the case. If I didn’t know a card after about 2 seconds, I didn’t know it after 10–15 seconds of racking my brain, either.</p>
+
+<p>The difference in number of reviews would probably be greater with my normal Anki setup, because I change the interval modifier to target 90% retention on mature cards, and I have an especially poor memory (my interval modifiers are around 35–50% on most of my decks). I was hoping that SuperMemo’s algorithm’s claims of targeting 90% retention (and the implication by users that not having to mess with settings like you have to in Anki is a relief, just let the superior algorithm do its work) were true, and I could cut down on the number of reviews I do on a daily basis.</p>
+
+<p>Unfortunately, my posttest results showed that SuperMemo is not giving me similar long-term recall to Anki, and is nowhere close to 90%. I’m quite disappointed at this. It’s possible that the algorithm takes more data and time to adjust to an individual’s memory, but I am now quite skeptical of any claims that SM-18 is significantly superior to SM-2.</p>
+
+<p>As many have brought up in discussions about different SRS algorithms, the biggest time savings you will reap as a lifelong learner is in making the leap from traditional flashcards to any SRS, and the differences between SRS systems are probably negligible. Reviewing all items every day was a complete waste of time, but it would be equally sad to forget those items that I once knew so well by waiting too long to review them again.</p>
+
+<p>Lastly, and pettily, SuperMemo did not get easier to use over the course of this experiment. I learned how to wrestle with it to do most of the things I wanted to do (even some cosmetic formatting things), but it was extremely frustrating. It’s buggy as hell (random windows disappear at random times, including the main menu, so I’d have to close the whole program and reopen often, having to repair the collection periodically was always a pain, doing backups didn’t make me feel more secure that my collection was safe), slow, and has some real dealbreakers (messing with the default order of new cards to review is much too complicated for my liking). However, I did add a lot of non-experiment cards to SuperMemo as well just to get the full experience of what it would be like to do a full switch, and I greatly enjoyed incremental reading. It’s probably the best thing SuperMemo has going for it.</p>
+
+<h1>Conclusion</h1>
+
+<p>I’m going to keep doing the experiment daily to collect more data and maybe do another posttest at the 6 month mark and see if SuperMemo gets any better on retention, and see how the number of reviews pans out over the long term. But I’m probably going to go back to using Anki for everything else. I’ve enjoyed doing this experiment greatly, and I feel more confident in my decision to use Anki as my primary SRS system. I have used Polar a little bit for incremental reading for a couple of PDFs that couldn’t be imported into SuperMemo (with a card that just says “read XYZ” in SuperMemo for scheduling purposes) and I am going to play with it a little more, or maybe keep using SuperMemo just for incremental reading, but put the generated flashcards into Anki (I don’t really like cloze deletions alone for learning new material, but that’s a whole other blog post). For a future experiment, I’d like to track long-term retention with varying lengths of traditional flashcard study up front. I feel like I’m never going to forget those Quizlet cards after dumping them into any SRS I choose, because I really learned them well first. This is something I already discovered by accident when I moved some personal Memrise decks to Anki (Memrise is brutal with early reviews, but it works!), but I’d like to know just how much rote drilling I can get away with before surrendering to the algorithm.</p>
