@@ -1,0 +1,121 @@
+---
+layout: post
+title: "How to Learn Every Word You Don’t Know When Reading a Foreign Language Text with Anki"
+date: 2021-12-02
+tags: workflow productivity lifeorganization thoughtorganization languagelearning anki
+---
+<h1>Introduction</h1>
+<p>This is just my way of doing things. But I’ve found it immensely helpful to both be able to read real books/manga/articles in my target languages and then be able to reread with even better comprehension later. Flashcards are rehearsal, and participating in the four basic skills (reading, writing, listening, speaking) in your target language is opening night.</p>
+
+<h1>Prerequisites</h1>
+<ul>
+	<li><a href="https://www.libreoffice.org/">LibreOffice</a> (you can use Excel or what have you, but I don’t know if my formulas will be the same syntax for you)</li>
+	<li>A text editor of your choice that can handle tabs</li>
+	<li><a href="https://apps.ankiweb.net/">Anki</a>, set up with three note types:
+		<ol>
+			<li><b>Target language forward and back</b>: you can start with “basic and reversed card.” It doesn’t matter what you use, but you want to have (at minimum) a target language field, a native language field, an image field, and an audio field. Example of my Japanese forward and back fields (“Reading” uses the <a href="https://ankiweb.net/shared/info/3918629684">Japanese Support add-on</a> to add furigana):<br>
+			<center>
+			<img src="/assets/img/blog/j_forward_and_back.png" alt="Screenshot of Anki fields for note type Japanese Forward and Back">
+			</center>
+			</li>
+			<li><b>Target language sentence</b>: this can just be a clone of a basic card (no reverse)</li>
+			<li><b>Target language cloze</b>: this can be a clone of basic cloze</li>
+		</ol>
+	</li>
+	<li>Optional but recommended: <a href="https://github.com/moniquemurphy/ringo">ringo</a> with a Forvo API subscription ($2 a month) to automate fetching images and audio for cards</li>
+</ul>
+
+<h1>Workflow</h1>
+<h2>Farming Phase</h2>
+<ol>
+	<li>Read something in your target language and pause when you hit a word or grammar construction you don’t know. It can be anything. Book, comic, back of a cereal box.</li>
+	<li>Look up the word or write it down to look up later. It’s easiest if you do this in the first column in LibreOffice to start, but you can always keep a list to look up later. If you look it up now, put the gloss in your native language in column 2.</li>
+	<li>Write down the entire sentence it occurred in, with the thing you want to remember in curly braces {}. After the sentence, tab once and write the gloss of the word. One line per sentence. I use Notepad++ for this, you can use whatever you want as long as it has a find/replace feature. This doesn’t go in your spreadsheet.</li>
+</ol>
+
+<h2>Card Creation Phase</h2>
+
+<h3>Single Word Cards</h3>
+<ol>
+	<li>If you’re going to use <a href="https://github.com/moniquemurphy/ringo">ringo</a>, especially with the Forvo API, I highly recommend putting a “plain” version of the word in column E. For example, if you added “la pomme” in column A, put “pomme” in column E.</li>
+	<li>Use the following formula in every cell in column C:<br>
+	<blockquote>
+		<pre><code>=CONCATENATE("&lt;img src=","""",E1,".jpg","""", "&gt;")</code></pre>
+	</blockquote>
+	This will end up as <code>&lt;img src="&lt;your word here&gt;.jpg"&gt;</code> after the formula is applied. If you didn't use column E, you can replace <code>E1</code> with <code>A1</code> or wherever you put your target language word.
+	</li>
+	<li>Use the following formula in every cell in column D:<br>
+	<blockquote>
+		<pre><code>=CONCATENATE("[sound:", E1, ".mp3]")</code></pre>
+	</blockquote>
+	This will end up as <code>[sound:"&lt;your word here&gt;.mp3"]</code>.
+	<br>
+	Your spreadsheet will now look something like this:<br>
+	<center>
+	<img src="/assets/img/blog/sample_spreadsheet.png" alt="Screenshot of LibreOffice spreadsheet with foreign language words ready to export">
+	</center>	
+	</li>
+	<li>
+	Copy everything from Column A to D (not E!) into a text editor. I recommend turning on settings where you can see every tab/space to check formatting. Save this file as <code>.txt</code>. Make sure the encoding is <code>UTF-8</code>.
+	</li>
+	<li>Import this text file into Anki, using your forward/back note type. Make sure you’ve selected “Fields separated by: Tab” and “Allow HTML in fields.” You can choose whatever you want to do for “Ignore lines where first field matches existing note.” Field 1 of file is your target language field in the note, Field 2 is your native language field in the note, Field 3 is your image field in the note, and Field 4 is your audio field in the note. Click “Import.”<br>
+	<center>
+	<img src="/assets/img/blog/sample_import.png" alt="Screenshot of import screen in Anki">
+	</center>
+	</li>
+	<li>
+	Copy column E into a different text file and use ringo to auto-fetch images and audio. Copy those files into your Anki’s <code>collection.media</code> folder and they should work on your new cards right away.<br>
+	If you want to add images and audio manually, make sure you save them as the same filenames that show up in the <code>&lt;img src=""&gt;</code> and <code>[sound:]</code> fields from earlier in the <code>collection.media</code> folder. Because Anki allows HTML in fields, those images and audio will load without you having to edit the cards.
+	</li>
+</ol>
+
+<h3>Sentence Cards</h3>
+<ol>
+	<li>In your sentence and sentence cloze note type, go to “Cards,” then the “Styling” tab. Add CSS for a <code>highlight</code> field.<br>
+	<center>
+	<img src="/assets/img/blog/card_styling1.png" alt="Screenshot of Anki note types window"><br>
+	<img src="/assets/img/blog/card_styling2.png" alt="Screenshot of Card type styling window in Anki">
+	</center></li>
+	<li>In your list of sentences in your text editor (where you outlined the words you want to learn in curly braces), Find and Replace the curly braces like so:<br>
+	<center>
+	<img src="/assets/img/blog/replace1.png" alt="Screenshot of Notepad++ with foreign language sentences"><br>
+	<img src="/assets/img/blog/replace2.png" alt="Screenshot of Notepad++ with foreign language sentences">
+	</center>
+	</li>
+	<li>Save the file and import into Anki, using your target language sentences note type.<br>
+	<center>
+	<img src="/assets/img/blog/import_sentences1.png" alt="Screenshot of import screen in Anki">
+	</center>
+	<br>
+	This will give you cards where the word you want is highlighted and the meaning is on the back, like so (yes, I know I lose the formatting on the back side when it goes back to the furigana::Reading field, but I don’t care enough to fix that):<br>
+	<center>
+	<img src="/assets/img/blog/sentence_highlight1.png" alt="Screenshot of sentence card in Anki with key word highlighted"><br>
+	<img src="/assets/img/blog/sentence_highlight2.png" alt="Screenshot of answer sentence card in Anki">	
+	</center></li>
+	<li>Go back to your sentences text file and either undo a couple steps to get back to the curly braces, or just replace like I do:<br>
+	<center>
+	<img src="/assets/img/blog/replace3.png" alt="Screenshot of Notepad++ with foreign language sentences"><br>
+	<img src="/assets/img/blog/replace4.png" alt="Screenshot of Notepad++ with foreign language sentences">
+	</center>
+	</li>
+	<li>Save this file and import into Anki using your sentences close note type:<br>
+	<center>
+	<img src="/assets/img/blog/import_sentences2.png" alt="Screenshot of import screen in Anki">
+	</center>
+	<br>
+	This will give you cloze cards where the cloze field is highlighted. I put the gloss on the front side in my cloze card settings.<br>
+	<center>
+	<img src="/assets/img/blog/sentence_cloze1.png" alt="Screenshot of sentence card in Anki with key word cloze deleted"><br>
+	<img src="/assets/img/blog/sentence_cloze2.png" alt="Screenshot of answer sentence card in Anki">	
+	</center>
+	<br>
+	I haven’t bothered to create a note type that has cloze and furigana, mostly because I’m lazy, but also because I already have this sentence with furigana on the “forward” sentence card in the deck anyway, but I bet it’s possible.
+	</li>
+</ol>
+
+<h1>Conclusion</h1>
+<p>It may seem like a lot of steps now, but now that the workflow comes naturally to me, it saves me a TON of time creating cards in Anki. I used to spend hours adding images and audio and I never caught up. I used to manually change the color of highlighted words in a sentence on each card! I like having single word cards with images and audio to learn the words out of context, and I like having sentence cards to learn the words in context.</p>
+
+<p>I highly recommend going back to old texts several months after you’ve fully learned the words and read the sentences a lot. You’ll be very surprised by how different the experience of rereading is.</p>
+
+<p>I hope this tutorial has given you some ideas for how to make the Anki card creation process a little less onerous. I have so much fun reading now because I know I’ll be able to understand what I didn’t before if I ever reread.</p>
