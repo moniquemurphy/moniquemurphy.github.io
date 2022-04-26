@@ -235,7 +235,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     multi_json (1.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.13.4-x64-mingw32)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     nuggets (1.6.0)
     octokit (4.22.0)
@@ -276,6 +277,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.1-x64-mingw32)
     unicode-display_width (1.8.0)
+    zeitwerk (2.5.1)
     wdm (0.1.1)
 
 PLATFORMS
@@ -296,7 +298,6 @@ DEPENDENCIES
   minima (~> 2.0)
   rake (~> 12)
   tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    2.3.7
