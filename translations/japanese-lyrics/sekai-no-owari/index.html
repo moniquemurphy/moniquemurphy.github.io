@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: sekai no owari"
+permalink: /translations/japanese-lyrics/sekai-no-owari
+---
+<h1>SEKAI NO OWARI</h1>
+<ul>
+    {% for song in site.data.artists.sekai_no_owari %}
+    <li><a href="/translations/japanese-lyrics/sekai-no-owari/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
