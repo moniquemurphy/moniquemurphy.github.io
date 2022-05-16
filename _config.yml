@@ -56,3 +56,5 @@ exclude:
 collections:
   reading_thoughts:
     output: true
+  japan_top_100:
+    output: true

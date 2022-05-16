@@ -22,3 +22,12 @@ permalink: garden/
     </li>
     {% endfor %}
 </ul>
+
+<h2>Japan Top 100 Updated Weekly</h2>
+<ul>
+    {% for japan_top_100 in site.japan_top_100 %}
+    <li>
+        <h3><a href="{{ japan_top_100.url }}">{{ japan_top_100.title }}</a></h3>
+    </li>
+    {% endfor %}
+</ul>
