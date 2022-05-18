@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: tani yuuki"
+permalink: /translations/japanese-lyrics/tani-yuuki
+---
+<h1>Tani Yuuki</h1>
+<ul>
+    {% for song in site.data.artists.tani_yuuki %}
+    <li><a href="/translations/japanese-lyrics/tani-yuuki/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
