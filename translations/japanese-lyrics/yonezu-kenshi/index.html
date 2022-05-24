@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: yonezu kenshi"
+permalink: /translations/japanese-lyrics/yonezu-kenshi
+---
+<h1>Yonzeu Kenshi</h1>
+<ul>
+    {% for song in site.data.artists.yonezu_kenshi %}
+    <li><a href="/translations/japanese-lyrics/yonezu-kenshi/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
