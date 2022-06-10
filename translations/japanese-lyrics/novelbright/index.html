@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: novelbright"
+permalink: /translations/japanese-lyrics/novelbright
+---
+<h1>Novelbright</h1>
+<ul>
+    {% for song in site.data.artists.novelbright %}
+    <li><a href="/translations/japanese-lyrics/novelbright/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
