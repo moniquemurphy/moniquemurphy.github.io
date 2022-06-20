@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: Ado"
+permalink: /translations/japanese-lyrics/ado
+---
+<h1>Ado</h1>
+<ul>
+    {% for song in site.data.artists.ado %}
+    <li><a href="/translations/japanese-lyrics/ado/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>
