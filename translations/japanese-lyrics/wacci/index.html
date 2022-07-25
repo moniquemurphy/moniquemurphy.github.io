@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: wacci"
+permalink: /translations/japanese-lyrics/wacci
+---
+<h1>wacci</h1>
+<ul>
+    {% for song in site.data.artists.wacci %}
+    <li><a href="/translations/japanese-lyrics/wacci/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
