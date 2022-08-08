@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: mrs. green apple"
+permalink: /translations/japanese-lyrics/mrs-green-apple
+---
+<h1>Mrs. GREEN APPLE</h1>
+<ul>
+    {% for song in site.data.artists.mrs_green_apple %}
+    <li><a href="/translations/japanese-lyrics/mrs-green-apple/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics">back to japanese lyrics</a>
