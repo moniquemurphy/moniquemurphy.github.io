@@ -1,0 +1,12 @@
+---
+layout: page
+title: "momomori-eki.net :: emi maria"
+permalink: /translations/japanese-lyrics/emi-maria
+---
+<h1>Every Little Thing</h1>
+<ul>
+    {% for song in site.data.artists.emi_maria %}
+    <li><a href="/translations/japanese-lyrics/emi-maria/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/japanese-lyrics/">back to japanese lyrics</a>
