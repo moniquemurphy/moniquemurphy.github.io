@@ -1,0 +1,16 @@
+---
+layout: default
+title: "momomori-eki.net :: reading"
+permalink: /reading/
+---
+<h1>Reading Thoughts and Notes</h1>
+
+<p>I love to read. I sometimes take notes. I like to blather about what I've read and read what other people think about what they've read.</p>
+
+<ul>
+  {% for post in site.reading_thoughts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<a href="/garden/">back to garden</a>

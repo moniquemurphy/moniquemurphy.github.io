@@ -1,33 +1,11 @@
 ---
 layout: default
 title: "momomori-eki.net :: garden"
-permalink: garden/
+permalink: /garden/
 ---
 <h1>Garden</h1>
 
-<h2>Blog Posts</h2>
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <h3><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date_to_string }}</a></h2>
-    </li>
-    {% endfor %}
-</ul>
-
-<h2>Thoughts On Stuff I've Read or Am Currently Reading</h2>
-<ul>
-    {% for reading_thoughts in site.reading_thoughts %}
-    <li>
-        <h3><a href="{{ reading_thoughts.url }}">{{ reading_thoughts.title }}</a></h3>
-    </li>
-    {% endfor %}
-</ul>
-
-<h2>Japan Top 100 Updated Weekly</h2>
-<ul>
-    {% for japan_top_100 in site.japan_top_100 %}
-    <li>
-        <h3><a href="{{ japan_top_100.url }}">{{ japan_top_100.title }}</a></h3>
-    </li>
-    {% endfor %}
-</ul>
+<h2><a href="/zettelkasten/">My Zettelkasten</a></h2>
+<h2><a href="/blog/">Blog Posts</a></h2>
+<h2><a href="/reading/">Stuff I've Read/Am Reading</a></h2>
+<h2><a href="/japantop100/">Japan Top 100 Weekly Lists with Links to Lyrics</a></h2>

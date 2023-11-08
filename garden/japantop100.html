@@ -1,0 +1,16 @@
+---
+layout: default
+title: "momomori-eki.net :: japan top 100"
+permalink: /japantop100/
+---
+<h1>Weekly Japan Top 100</h1>
+
+<p>I like to listen to the top 100 songs from Japan on Apple Music as a way to stay current. Sometimes I use the list as a constraint on what to translate.</p>
+
+<ul>
+  {% for post in site.japan_top_100 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<a href="/garden/">back to garden</a>
