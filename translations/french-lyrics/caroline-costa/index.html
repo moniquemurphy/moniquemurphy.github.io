@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "momomori-eki.net :: caroline costa"
+permalink: /translations/french-lyrics/caroline-costa
+---
+<h1>Caroline Costa</h1>
+<ul>
+    {% for song in site.data.french_artists.caroline_costa %}
+    <li><a href="/translations/french-lyrics/caroline-costa/{{ song || slugify:pretty }}">{{ song }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/translations/french-lyrics">back to french lyrics</a>
